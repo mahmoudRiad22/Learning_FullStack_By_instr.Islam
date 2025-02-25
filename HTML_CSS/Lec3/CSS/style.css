@@ -1,0 +1,62 @@
+/* Common features/ attributes that we learned */
+    /* width, height */
+    /* background-color, text color */
+    /* font size */
+    /* broder */
+    /* border-radius */
+
+
+body{
+    background-color: bisque;
+}
+
+h2{
+    color:blueviolet;
+}
+
+button{
+    width: 250px;
+    height: 60px;
+
+    background-color: blue;
+
+    color: aliceblue;
+    font-size: 30px;
+
+    /* border: none; */
+    /* border: 0; */
+    border: 4px, dotted red;
+    /* broder type: solid, dotted, dashed */
+
+    /* border radius for cuved corners */
+    border-radius: 30px;
+
+    
+}
+
+
+.div1{
+    background-color: chocolate;
+    height: 200px;
+    width: 500px;
+}
+
+.div2{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 200px;
+}
+
+.div2 h2{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    
+}
+p{
+    color: aliceblue;
+}
+
+
