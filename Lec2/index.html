@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <title> mahmoud </title>
+    </head>
+
+    <body>
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+        <h2> most common headline used is h2</h2>
+        <p>paragraph: we gonna learn to change font size later in css</p>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id hic esse, maxime ut quae cumque alias earum dignissimos magnam, quia vel accusamus consequatur, nobis optio ipsam. Qui tenetur atque odio?</span>
+        <button> send</button>
+<!-- ///////////////////// recap of lec 1 ////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+        <!--////////////////////// Lec 2 //////////////////////////////////// -->
+
+        <!--  src: found in tag img and iframe          href: found in anchor tag and ... -->
+
+        <!-- /////////////////////////////////////////////// -->
+        <br> <!-- the is a break line tag === "newline"  -->
+        <!-- /////////////////////////////////////////////// -->
+
+
+        <!-- how to upload a pic??..... we use the "img" tag -->
+        <!-- src : the source destination of the pic
+             alt: the alternative text of the pic in case not uploaded -->
+        <img src="./imges/Killua_PF.jpg" alt="not-found" width="300" height="300">
+        <!-- ////////////////////////////////////////////////////// -->
+
+        <!-- there are "6" tags in html that has no end-tag word -->
+            <!-- 1- "img" tag -->
+            <!-- 2- "br" tag -->
+            <!-- 3- "hr" tag -->
+            <!-- 4- "input" tag -->
+            <!-- the rest will be updated later on -->
+
+
+        <!-- how to STOP the img to be dragged, why?? -->
+                <!-- why? any img has the "draggable" set to "True" by default
+                    to STOP thaat u must make it set tp "False"-->
+        <br><hr>
+        <img src="./imges/download.jpeg" alt="error" height="300" width="300" draggable="false">
+        <br><hr>
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        
+        <!-- How to add a link??..... we use the "a" tag [a: anchor tag] -->
+        <a href="https://www.youtube.com/" target="_blank"> youtube</a> <!-- open in a new tap-->
+        <a href="https://www.facebook.com/"> facebook</a> <!-- open on same tap "default state"-->
+        <a href="https://www.google.com.eg/" target="_self"> google</a> <!-- open on same tap "default state"-->
+        <br><hr>
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+
+        <!-- use external links to open inside your current page i.e:YT video -->
+        <!-- we use the "iframe" tag by just copying the embeded code from the src video -->
+        <iframe width="315" height="473" src="https://www.youtube.com/embed/GZwWj_lvsZE" draggable= "false" ="Dad Jokes | Don&#39;t laugh Challenge  #funny #dadjokes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><hr>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/5I30v4HyJW8" draggable="false" title="Gabriela Bee - STORIES (Official Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br><hr>
+        <!-- /////////////////////// NOTE "a" vs "iframe"////////////////// -->
+            <!-- the "a" tag used to anchor ur page and move u to extrnal link -->
+            <!-- the "iframe" tag is used to bring the external links inside your page and keep it active to use -->
+
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- //////  break line tags //////// -->
+        <br><br> <!-- newline-->
+        <hr> <hr><!-- horizontal row-->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <br><br>
+        <h2> lists</h2>
+        <h4>unordered list</h4>
+        <!-- lists -->
+
+            <!-- 1- "ul" unordered list -->
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+                <li>item 5</li>
+                <li>item 6</li>
+                <li>item 7</li>
+                <li>item 8</li>
+            </ul>
+
+            <!-- 2- "ol" Ordered list -->
+            <ol>
+                <li>s</li>
+                <li>so</li>
+                <li>som</li>
+                <li>some</li>
+                <li>somet</li>
+            </ol>
+
+            <!-- Ordered list with specific type if order -->
+            <ol type="I">
+                <li>item 1</li>
+                <li>phone 2</li>
+                <li>picture 3</li>
+            </ol>
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+
+        <!-- 3- describtive list [consist of describtive term "dt", describtive details "dd"] -->
+        <!-- 3- "dl" detailed list. ["dt"main title, "dd" subtitle or details] -->
+            
+                <dl>
+                    <dt>currently working:</dt>
+                        <dd>lec 1</dd>
+                        <dd>lec 2</dd>
+
+                    <dt>todo lecs:
+                        <dd>lec 3</dd>
+                        <dd>lec 4</dd>
+                        <dd>lec 5</dd>
+                        <dd>lec 6</dd>
+                        <dd>lec 7</dd>
+                    </dt>
+
+                    <dt>iphones
+                        <dd>iphone 13</dd>
+                        <dd>iphone 14</dd>
+                        <dd>iphone 15</dd>
+                        <dd>ihpone 16</dd>
+                    </dt>
+                </dl>
+        <br><hr>
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+
+        <!-- "select" tag:  to select form multiple options -->
+        <select name="" id="">
+
+            <option value="" hidden>languages</option>
+            <option value="">html</option>
+            <option value="">css</option>
+            <option value="">js</option>
+            <option value="">html5</option>
+            <option value="">css3</option>
+
+        </select>
+
+        <br><hr>
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////////////////////////////////////////////// -->
+
+        <!-- "form" tag contains:-->
+            <!-- label -->
+            <!-- input [type= "text", "password", "radio with name","checkbox"] [palceholder="something"] -->
+
+        <form action="">
+
+            <h4> A test form</h4>
+
+            <label> Username: </label>
+                <input type="text" placeholder="Enter your Username">
+                <br><br>
+
+            <label>Email: </label>
+                <input type="email" placeholder="Enter your Email">
+                <br><br>
+
+            <label>Password: </label>
+                <input type="password" placeholder="Enter your password">
+                <br><br>
+
+            <label>Gender: </label>
+                <input type="radio" name="only one">Male
+                <input type="radio" name="only one">Female
+                <input type="radio" name="only one">rather not say
+                <br><br>
+
+            <label>languages</label>
+                <input type="checkbox" name="" id="">English
+                <input type="checkbox" name="" id="">Spanish
+                <input type="checkbox" name="" id="">Italy
+                <input type="checkbox" name="" id="">Korean
+                <input type="checkbox" name="" id="">Chinese
+                <br><br>
+            <label>Select: </label>
+                <select name="" id="">
+                    <option hidden> a langauges to learn</option>
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">JavaScript</option>
+                    <option value="">C++</option>
+                </select>
+                <br><br>
+            <label>Tell us something about you</label><br>
+                <textarea cols="30" rows="10" placeholder="say something"></textarea>
+        </form>
+        <hr><br><br>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////// Summary of lec 2 ///////////////////////////////////////-->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- "img" tag to add a pic to your page.[default draggable = "true"] -->
+
+        <!-- "a" tag to acnhor your page and move to extrnal links.[default target = _self] -->
+
+        <!-- "iframe" tag used to encode extrnal links inside the page and activate it to be used i.e: YT video -->
+
+        <!-- "br" and "hr" tags to organize between tags -->
+
+        <!-- "ul" tag used for Unordered list. [use the "li" tag multiplier to add the list items]-->
+
+        <!-- "ol" tag used for the Ordered list. [use the "type" keyword to specify the type of order you want] -->
+
+        <!-- "dl" tag used for describtive lists
+            consists of "dt" the destribtive title or term
+                        "dd" the describtive details -->
+
+        <!-- "select" tag using the "options" tags and naming the first option as "hidden" -->
+        
+        <!-- "form" tag used to take info form the user --> 
+                <!-- "label" tag to name each field of the form -->
+                <!-- "input" tag used to take the info from the user -->
+                        <!-- there is "33" type of input so far -->
+                            <!-- input types are [text, password, email, radio with name, checkbox] -->
+
+        <!-- "textarea" tag used to take a paragraph input from the user -->
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
+
+    </body>
+</html>
