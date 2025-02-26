@@ -178,3 +178,72 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- //////////////////////// Summary of LEC 5 //////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+            <!-- Tables: -->
+                <!-- a table has:
+                        1- "caption": the table title.
+                        2- "thead": the first row of the table.
+                        3- "tbody": the in-between rows of the table.
+                        4- "tfoot": the last row of the table.
+                        5- each row consist of "tr" and "td". 
+                -->            
+            <!-- ----------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------- -->            
+            <!-- Block vs In-line:
+                    -"block": it takes the full row as its size.
+                    -"In-line": it only takes its content size.-->
+
+            <!-- What is the difference between "in-line" element and "block" element?? -->
+                    <!-- "block" elements block the whole row for tiself [ex: "p" tag]-->
+                    <!-- "in-line" elements just takes its own size nothing more [ex: "span" tag] -->
+                    <!-- easy way to check is give it a background color -->
+
+                    <!-- block elements Examples
+                            div     p   li   h2-->
+
+                    <!-- in-line elements examples 
+                            button  span    img -->
+
+            <!-- CSS : -->
+                    <!-- ":hover" [what will happen when crusor hover over the selected div] -->
+                    <!-- "float: left" [make the divs next to each other rather than over each other as default] -->
+
+            <!--  now lets learn how to interchange between blocks and inlines -->
+                    <!-- "display: [inline, block]" for TEXT type elements like  -->
+                    <!-- "float: [right. left]" used for NONE-TEXT element to float it to a higher/upper layer.-->
+
+            <!-- whats the problem with using the "float"?? -->
+                        <!-- the parent div is seperated from the the children
+                             so any change in the parent div will not appear on the higher layer-->
+                    
+                        <!-- to solve the problem:
+                                1- apply a "overflow: auto" on the parent div to merge them together
+                                2- create an empty div and use the "clear: both" attribute to merge them togehter -->
+            <!-- ----------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------- -->
+                            <!-- margin for spacing -->
+            
+            <!-- 1st step is to seperate between "text" type or "none-text" type -->
+            <!-- "margine": used for the "NONE-TEXT" elements -->
+                    <!-- margine-left, margine-top, margine-right, margine-bottom]
+                        margin = from all sides
+                        margin: auto [to center single element inside its block with respect to its parent]
+                        margin: top-bottom  left-right      i.e: margin: 100px 300px;
+                        margin:  top right bottom left (تبع عقارب الساعة)       i.e: margin: 10px 20px 30px 40px
+                    -->
+
+            <!-- "text-align: center" used for the "TEXT" type elements -->
+            <!-- ----------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------- -->
+                                    <!-- Entities -->
+                                    
+            <!-- 1- "&nbsp": none breaking space -->
+            <!-- 2- &gt; and &lt;-->
+            <!-- 3- copyright signature [ &copy;] -->
+            <!-- 4- trademark [&reg;] -->
+        <!-- for extra Entities use w3school website->HTML->Entities -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->

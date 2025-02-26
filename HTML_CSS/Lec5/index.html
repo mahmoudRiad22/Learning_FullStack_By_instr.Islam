@@ -1,0 +1,253 @@
+<html>
+    <head>
+
+        <title>Lec5</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="./CSS/style.css">
+
+    </head>
+
+    <body>
+        <!-- we start with the "table" tag -->
+
+        <table border="5" style="text-align: center;">
+            <!-- the title of the table is called "caption" -->
+            <caption><b><i>My First table</i></b></caption>
+
+            <thead>
+                <tr>
+                    <th>title1</th>
+                    <th>title2</th>
+                    <th>title3</th>
+                    <th>title4</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>1x1</td>
+                    <td>1x2</td>
+                    <td>1x3</td>
+                    <td>1x4</td>
+                </tr>
+                <tr>
+                    <td>2x1</td>
+                    <td>2x2</td>
+                    <td>2x3</td>
+                    <td>2x4</td>
+                </tr>
+                <tr>
+                    <td>3x1</td>
+                    <td>3x2</td>
+                    <td>3x3</td>
+                    <td>3x4</td>
+                </tr>
+                <tr>
+                    <td>4x1</td>
+                    <td>4x2</td>
+                    <td>4x3</td>
+                    <td>4x4</td>
+                </tr>
+                <tr>
+                    <td>5x1</td>
+                    <td>5x2</td>
+                    <td>5x3</td>
+                    <td>5x4</td>
+                </tr>
+                <tr>
+                    <td>6x1</td>
+                    <td>6x2</td>
+                    <td>6x3</td>
+                    <td>6x4</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>fx1</td>
+                    <td>fx2</td>
+                    <td>fx3</td>
+                    <td>fx4</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Entities -->
+
+            <!-- 1- "&nbsp": none breaking space -->
+            <h2>Mahmoud &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Riad</h2>
+
+            <!-- 2- &gt; and &lt;-->
+            <h2>10 &gt; 6 &nbsp; and &nbsp; 500 &lt; 1800</h2>
+
+            <!-- 3- copyright signature [ &copy;] -->
+            <h2>&copy;Mahmoud Riad</h2>
+            <!-- 4- trademark [&reg;] -->
+            <h2>&reg;meta</h2>
+        <!-- for extra Entities use w3school website->HTML->Entities -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="parent">
+            <div class="div1">
+                <h2 class="title1">this is div 1</h2>
+                <button class="btn1">OK</button>
+            </div>
+
+            <div class="div2">
+                <h2 class="title2">this is div 2</h2>
+                <button class="btn2">OK</button>
+            </div>
+
+            <div class="div3">
+                <h2 class="title3">this is div 3</h2>
+                <button class="btn3">OK</button>
+            </div>
+
+            <div class="empty"></div>
+        </div>
+
+    <!-- Some CSS : -->
+        <!-- ":hover" [what will happen when crusor hover over the selected div] -->
+        <!-- "float: left" [make the divs next to each other rather than over each other as default] -->
+
+
+        <!-- What is the difference between "in-line" element and "block" element?? -->
+                <!-- "block" elements block the whole row for tiself [ex: "p" tag]-->
+                <!-- "in-line" elements just takes its own size nothing more [ex: "span" tag] -->
+                <!-- easy way to check is give it a background color -->
+
+                <!-- block elements Examples
+                        div     p   li   h2-->
+
+                <!-- in-line elements examples 
+                        button  span    img -->
+                <p class="p1">this is a block element</p>
+                <span>this</span>
+                <span>is</span>
+                <span>an</span>
+                <span>in-line</span>
+                <span>element</span>
+                <br>
+
+        <!--  now lets learn how to interchange between blocks and inlines -->
+                    <!-- "display: [inline, block]" for text type elements like  -->
+                    <!-- "float: [right. left]" used to make the element on a higher layer and make it floatable -->
+
+            <!-- whats the problem with suing the "float"?? -->
+                        <!-- the parent div is seperated from the the children
+                             so any change in the parent div will not appear on the higher layer-->
+                    
+                        <!-- to solve the problem:
+                                1- apply a "overflow: auto" on the parent div to merge them together
+                                2- create an empty div and use the "clear: both" attribute to merge them togehter -->
+
+        
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+                            <!-- margin for spacing -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="parentArea">
+            <!-- 1st step is to seperate between "text" type or "none-text" type -->
+            <!-- "margine": used for the "NONE-TEXT" elements -->
+                    <!-- margine-left, margine-top, margine-right, margine-bottom]
+                        margin = from all sides
+                        margin: auto [to center single element inside its block with respect to its parent]
+                        margin: top-bottom  left-right      i.e: margin: 100px 300px;
+                        margin:  top right bottom left (تبع عقارب الساعة)       i.e: margin: 10px 20px 30px 40px
+                    -->
+
+            <!-- "text-align: center" used for the "TEXT" type elements -->
+                        
+            <div class="area1">
+                <h2 class="area1Title">Area 1</h2>
+                <button class="area1Btn">OK</button>
+            </div>
+
+            <div class="area2"></div>
+            <div class="area3"></div>
+
+            <!-- <div class="empty"></div> -->
+
+        </div>
+        
+    </body>
+</html>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- //////////////////////// Summary of LEC 5 //////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+            <!-- Tables: -->
+                <!-- a table has:
+                        1- "caption": the table title.
+                        2- "thead": the first row of the table.
+                        3- "tbody": the in-between rows of the table.
+                        4- "tfoot": the last row of the table.
+                        5- each row consist of "tr" and "td". 
+                -->            
+            <!-- ----------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------- -->            
+            <!-- Block vs In-line:
+                    -"block": it takes the full row as its size.
+                    -"In-line": it only takes its content size.-->
+
+            <!-- What is the difference between "in-line" element and "block" element?? -->
+                    <!-- "block" elements block the whole row for tiself [ex: "p" tag]-->
+                    <!-- "in-line" elements just takes its own size nothing more [ex: "span" tag] -->
+                    <!-- easy way to check is give it a background color -->
+
+                    <!-- block elements Examples
+                            div     p   li   h2-->
+
+                    <!-- in-line elements examples 
+                            button  span    img -->
+
+            <!-- CSS : -->
+                    <!-- ":hover" [what will happen when crusor hover over the selected div] -->
+                    <!-- "float: left" [make the divs next to each other rather than over each other as default] -->
+
+            <!--  now lets learn how to interchange between blocks and inlines -->
+                    <!-- "display: [inline, block]" for TEXT type elements like  -->
+                    <!-- "float: [right. left]" used for NONE-TEXT element to float it to a higher/upper layer.-->
+
+            <!-- whats the problem with using the "float"?? -->
+                        <!-- the parent div is seperated from the the children
+                             so any change in the parent div will not appear on the higher layer-->
+                    
+                        <!-- to solve the problem:
+                                1- apply a "overflow: auto" on the parent div to merge them together
+                                2- create an empty div and use the "clear: both" attribute to merge them togehter -->
+            <!-- ----------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------- -->
+                            <!-- margin for spacing -->
+            
+            <!-- 1st step is to seperate between "text" type or "none-text" type -->
+            <!-- "margine": used for the "NONE-TEXT" elements -->
+                    <!-- margine-left, margine-top, margine-right, margine-bottom]
+                        margin = from all sides
+                        margin: auto [to center single element inside its block with respect to its parent]
+                        margin: top-bottom  left-right      i.e: margin: 100px 300px;
+                        margin:  top right bottom left (تبع عقارب الساعة)       i.e: margin: 10px 20px 30px 40px
+                    -->
+
+            <!-- "text-align: center" used for the "TEXT" type elements -->
+            <!-- ----------------------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------------------- -->
+                                    <!-- Entities -->
+                                    
+            <!-- 1- "&nbsp": none breaking space -->
+            <!-- 2- &gt; and &lt;-->
+            <!-- 3- copyright signature [ &copy;] -->
+            <!-- 4- trademark [&reg;] -->
+        <!-- for extra Entities use w3school website->HTML->Entities -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+

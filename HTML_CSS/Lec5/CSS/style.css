@@ -1,0 +1,234 @@
+body{
+    height: 3000px;
+}
+
+ /* ///////////////////////////////////////////////////////////////////////////// */
+ /* ///////////////////////////////////////////////////////////////////////////// */
+ /* ///////////////////////////////////////////////////////////////////////////// */
+
+
+.parent{
+    background-color: fuchsia;
+    overflow: auto;
+}
+
+.div1{
+    width: 300px;
+    height: 200px;
+    /* background-color: blue; */
+    /* color: red; */
+    border: solid black;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+
+}
+
+.div2{
+    width: 300px;
+    height: 200px;
+    /* background-color: red; */
+    /* color: black; */
+    border: solid black;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+
+
+}
+
+.div3{
+    width: 300px;
+    height: 200px;
+    /* background-color: chartreuse; */
+    border: solid black;
+    /* color: white; */
+    border: solid black;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+
+
+}
+
+/* .empty{
+    clear: both;
+}
+ */
+
+
+ .parentArea{
+    background-color: rgb(227, 243, 243);
+    /* overflow: auto; */
+ }
+
+ .area1{
+    width: 300px;
+    height: 200px;
+    background-color: chocolate;
+    /* float: right; */
+
+    border: 3px;
+    border-radius: 15px;
+    text-align: center;
+
+    margin: auto;
+ }
+ 
+ .area2{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(14, 131, 133);
+    /* float: right; */
+    border: 3px;
+    border-radius: 15px;
+
+    margin: 100px 300px; /* top-bottom  left-right*/
+ }
+
+ .area3{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(97, 9, 138);
+    /* float: right; */
+    border: 3px;
+    border-radius: 15px;
+    margin: 30px 40px 50px 60px;
+ }
+
+ /* ///////////////////////////////////////////////////////////////////////////// */
+ /* ///////////////////////////////////////////////////////////////////////////// */
+ /* ///////////////////////////////////////////////////////////////////////////// */
+
+
+ .area1:hover{
+    background-color: rgb(254, 145, 67);
+ }
+
+ .area2:hover{
+    background-color: rgb(8, 231, 235);
+ }
+ 
+ .area3:hover{
+    background-color: rgba(227, 18, 175, 0.977);
+ }
+
+.div1:hover{
+    background-color: cyan;
+    /* cursor: pointer; */
+}
+
+.div2:hover{
+    background-color: blueviolet;
+    /* cursor: pointer; */
+}
+
+.div3:hover{
+    background-color: royalblue;
+    /* cursor: pointer; */
+}
+
+ /* ///////////////////////////////////////////////////////////////////////////// */
+ /* ///////////////////////////////////////////////////////////////////////////// */
+ /* ///////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+.btn1{
+    width: 150px;
+    height: 50px;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.btn1:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.btn2{
+    width: 150px;
+    height: 50px;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.btn2:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+.btn3{
+    width: 150px;
+    height: 50px;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.btn3:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+
+.title1:hover{
+    color: red;
+
+}
+
+.title2:hover{
+    color: red;
+
+}
+
+.title3:hover{
+    color: red;
+
+}
+
+
+.p1{
+    display: inline;
+}
+
+.area1Title{
+    text-align: center;
+}
+
+
+
+.area1Btn{
+    width: 150px;
+    height: 50px;
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.area1Btn:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
