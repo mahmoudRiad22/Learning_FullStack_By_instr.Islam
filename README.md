@@ -120,3 +120,61 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////// Summary of lec 4 ////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    
+        <!-- 3 ways to style an element -->
+                    <!-- 1- in-line style inside the tag start-->
+                    <!-- 2- internal style inside the header using keyword  "style"-->
+                    <!-- 3- external style inside teh style.css file and link it to ur html file -->
+
+        <!-- u can give a specific name to an element and use it for styling later -->
+                    <!-- 1- using the "class".[gets called by the dot call] this is the way-->
+                    <!-- 2- using the "id".[gets called by the hashtag call] -->
+
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+
+        <!-- background iamge attributes: -->
+                        <!-- background img: url(/src destination) -->
+
+                        <!-- background size: [cover] streaches  the iamge fit the div size regardless -->
+                        
+                        <!-- background position: [top, bottom. right, left, center] or a mix of them -->
+                        
+                        <!-- background repeat: used to stop the img from repeating -->
+                        
+                        <!-- background attachement: 
+                                if fixed: makes the iamge just fixed with respect to its size and position 
+                                if scroll: the pic is scrollable with respect to its size and postion -->
+
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+
+        <!-- fonts has 4 main attributes [MUST be in that order] -->
+                        <!-- style, weight, size, family -->
+                            <!-- style: [italic == oblique or normal] -->
+
+                            <!-- weight: default = normal == 100-400, bold == 700-900 -->
+
+                            <!-- size: in pixel -->
+
+                            <!-- family: to add a new font:-->
+
+                                    <!-- 1- download the font .zip file -->                                    
+                                    <!-- 2- extract it then install using the font view app -->
+                                    <!-- 3- import it into the css file using @font-face -->
+                                                <!-- @font-face {
+                                                    font-family: "playwrite";
+                                                    src: url(../fonts/Playwrite_IT_Moderna/PlaywriteITModerna-VariableFont_wght.ttf);
+                                                } -->
+
+                                    <!-- 4- use the name-holder u give it as your font family -->
+                                                <!-- font-family: "playwrite"; -->
+                                                
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
