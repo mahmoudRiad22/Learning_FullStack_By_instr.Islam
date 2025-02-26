@@ -6,6 +6,27 @@
         <meta name="describtion" content="details of lec4 and its code...">
         <link rel="stylesheet" href="./CSS/style.css">
 
+    <!-- /////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////// -->
+        <!-- internal stylesheet -->
+        <style>
+            .lec4 p{
+                width: 350px;
+                height: auto;
+                background-color: black;
+                color: beige;
+
+                margin: 0;
+            }
+            .header p{
+                width: auto;
+            }
+
+        </style>
+    <!-- /////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////// -->
+
+
     </head>
 
     <body class="index-body">
@@ -13,12 +34,12 @@
         <div class="header">
 
             <h1>lec 4 frontend with islam</h1>
-            
+
             <p><em>this lec will start with a recap of all tags we learned so far, then proceed with the new section later</em></p>
 
         </div>
-
-            <div class="firstForm" style="margin: 0;">
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+            <div class="firstForm">
                 <h2><b>First Form</b></h2>
 
                 <label for="">Default Profile pic: </label><br>
@@ -26,8 +47,7 @@
                 <img src="./imges/Killua_PF.jpg" alt="error" draggable="false" width="100px" height="70px">
                 <br><br>
 
-                <label> this form will contain every tag we learned so far
-                        , please fill out this form for us. thank you :)</label><br><br>
+                <label> this form will contain every tag we learned so far, please fill out this form for us. thank you :)</label><br><br>
                 
                 <label for="">Username: </label>
                     <input type="text" name="" id="" placeholder="Enter your Username"><br><br>
@@ -89,30 +109,129 @@
                     <button onclick="">Submit</button>
                 </a>
             </div>
-
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
             <div class="Lec4">
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
 
-                <h2 style="text-align: center; margin: 0;">this is the start of lec 4</h2>
+                <!-- 3 ways to style an element -->
+                    <!-- 1- in-line style inside the tag start-->
+                    <!-- 2- internal style inside the header using keyword  "style"-->
+                    <!-- 3- external style inside teh style.css file and link it to ur html file -->
 
+                <h2>this is the start of lec 4</h2>
 
-            </div>
+                <!-- this paragraph is styled internally in the head tag -->
+                <p>there are 3 Ways to apply style of CSS</p>
 
+                    <!-- the label is styled in the style.css file -->
+                    <label class="label_1"> this label is styled <b>Externally</b> while the next ordered listed is styled <b>in-line</b></label-1>
+                    
+                    <!-- ordered list stylied in-line -->
+                    <ol style="margin: 0; background-color: black ; color: beige;">
+                        <li>"Internal stylesheet" its written in the header tag</li>
+                        <li>"in-line stylesheet its written inside the start of the tag using keyword "style"</li>
+                        <li>"External stylesheet its written in a style.css file and linked in the html header tag</li>
+                    </ol>
 
+                <!-- starting now we will make all the style Externally -->
 
+                <hr style=" border: 2px solid blue; margin: 0;">
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
 
+                <!-- u can give a specific name to an element and use it for styling later -->
+                    <!-- 1- using the "class".[gets called by the dot call] this is the way-->
+                    <!-- 2- using the "id".[gets called by the hashtag call] -->
+
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- background -->
+
+                <div class="background-color-div">
+                    <!-- 1- u can make the background a color see the style -->
+                </div>
+
+                <hr style=" border: 2px solid blue; margin: 0;">
+
+                <div class="background-img-div">
+                    <!-- 2- u can make the background an image -->
+
+                    <h2 class="title_1">mahmoud</h2>
+                    <h2 class="title_1">mostafa</h2>
+                    <h2 class="title_1">riad</h2>
+
+                    <!-- background iamge attributes: -->
+                        <!-- background img: url(/src destination) -->
+
+                        <!-- background size: [cover] streaches  the iamge fit the div size regardless -->
+                        
+                        <!-- background position: [top, bottom. right, left, center] or a mix of them -->
+                        
+                        <!-- background repeat: used to stop the img from repeating -->
+                        
+                        <!-- background attachement: 
+                                if fixed: makes the iamge just fixed with respect to its size and position 
+                                if scroll: the pic is scrollable with respect to its size and postion -->
+
+                </div>
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+                <!-- /////////////////////////////////////////////////// -->
+
+                <div class="fonts">
+                    <!-- here we gonna learn about fonts -->
+                    <p class="p1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates quidem minima saepe amet! Exercitationem temporibus praesentium voluptates rerum aliquam. Nemo reiciendis pariatur natus omnis cupiditate odit dolore. Nihil, iusto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates quidem minima saepe amet! Exercitationem temporibus praesentium voluptates rerum aliquam. Nemo reiciendis pariatur natus omnis cupiditate odit dolore. Nihil, iusto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates quidem minima saepe amet! Exercitationem temporibus praesentium voluptates rerum aliquam. Nemo reiciendis pariatur natus omnis cupiditate odit dolore. Nihil, iusto.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates quidem minima saepe amet! Exercitationem temporibus praesentium voluptates rerum aliquam. Nemo reiciendis pariatur natus omnis cupiditate odit dolore. Nihil, iusto.
+                    </p>
+
+                    <!-- fonts has 4 main attributes [MUST be in that order] -->
+                        <!-- style, weight, size, family -->
+                            <!-- style: [italic == oblique or normal] -->
+
+                            <!-- weight: default = normal == 100-400, bold == 700-900 -->
+
+                            <!-- size: in pixel -->
+
+                            <!-- family: to add a new font:-->
+
+                                    <!-- 1- download the font .zip file -->                                    
+                                    <!-- 2- extract it then install using the font view app -->
+                                    <!-- 3- import it into the css file using @font-face -->
+                                                <!-- @font-face {
+                                                    font-family: "playwrite";
+                                                    src: url(../fonts/Playwrite_IT_Moderna/PlaywriteITModerna-VariableFont_wght.ttf);
+                                                } -->
+
+                                    <!-- 4- use the name-holder u give it as your font family -->
+                                                <!-- font-family: "playwrite"; -->
+                                                
+
+                </div>
+            </div>  
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-        <div class="footer">
-            <a href="https://www.youtube.com/" target="_blank"><i>youtube</i></a> 
-            <a href="https://www.google.com.eg/" target="_blank"><i>google</i></a> 
-            <a href="https://web.facebook.com/?ref=logo&_rdc=1&_rdr#" target="_blank"><i>facebook</i></a>
-            <p>@copyright reserved: Mahmoud Raid</p>
-        </div>
-
-        
     </body>
+
+    <!-- <div class="footer">
+       
+    </div> -->
+
+    <footer class="footer">
+        <a href="https://www.youtube.com/" target="_blank"><i>youtube</i></a> 
+        <a href="https://www.google.com.eg/" target="_blank"><i>google</i></a> 
+        <a href="https://web.facebook.com/?ref=logo&_rdc=1&_rdr#" target="_blank"><i>facebook</i></a>
+        <p>@copyright reserved: Mahmoud Raid</p>
+    </footer>
 </html>

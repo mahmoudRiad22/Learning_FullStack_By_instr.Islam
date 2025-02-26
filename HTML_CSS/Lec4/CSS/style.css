@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "playwrite";
+    src: url(../fonts/Playwrite_IT_Moderna/PlaywriteITModerna-VariableFont_wght.ttf);
+}
 /* ////////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////// */
 /* ////////////////////////////////////////////////////////////////////////////////// */
@@ -9,6 +13,7 @@
 
 .header h1{
     text-align: center;
+    color: aliceblue;
 }
 
 .header hr{
@@ -39,6 +44,7 @@
     color: black;
 
     border:3px  solid red;
+    margin: 0;
 }
 .firstForm h2{
     font-size: 50px;
@@ -113,13 +119,65 @@
 /* ////////////////////////////////////////////////////////////////////////////////// */
 
 .lec4{
-    width: auto; 
-    height: 1000px; 
     background-color: lemonchiffon; 
     border: 3px solid blue;
 }
 
+.lec4 h1{
+    text-align: center;
+    margin: 0;
+}
 
+.label_1{
+    background-color: black;
+    color: beige;
+    margin: 0;
+
+
+}
+
+.background-color-div{
+    width: auto;
+    height: 250px;
+    background-color: blueviolet;
+
+    margin: 0;
+
+}
+
+.background-img-div{
+    width: auto;
+    height: 1250px;
+    margin: 0;
+
+    background-image: url(../imges/pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+.title_1{
+    /* background-color: crimson; */
+    color: aliceblue;
+    margin: 0;
+}
+
+.fonts .p1{
+    width: auto;
+    height: 500px;
+    color: bisque;
+
+
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+
+ /* font: [style]   [weight]    [size]       [family] */
+    font: oblique   normal       20px        "playwrite";
+}
 
 
 
