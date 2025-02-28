@@ -248,3 +248,53 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- /////////////////////////////////////////////////////////////////////////// -->
+    <!-- //////////////////////////// Summary of Lec 6 ///////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////////////////// -->
+            <!-- the naming of CSS selectors:
+                        .selector{
+                            properity: value; /* the whole line is called declaration */
+                        } -->
+                
+                <!-- now we Continue learning about spacing in CSS -->
+                        <!-- 1- "outline": to create a border over the normal border. -->
+                        <!-- 2- "outline-offset": the distance between the 2 borders. -->
+                        <!-- 3- "padding": is the space between the border and the content. -->
+                        <!-- 4- "margin": is the space between the parent border and the element border:
+                                    [margin [border [padding [TEXT/ELEMENT] padding] border] margin] 
+                                -->
+                        <!-- 5- THE "PADDING" adds an EXTRA space inside the element.. it can cause an oversize!! be carefull with it  -->
+
+                        <!-- //////////////////////////////////////////////// -->
+                        <!-- 6- text-decoration:
+                                text-decoration: none
+                                text-decoration: underline
+                                text-decoration: overline
+                                text-decoration: line-through-->
+
+                        <!-- 7- text-transform:
+                                1- text-transform: capitalize
+                                2- text-transform: uppercase
+                                3- text-transform: lowercase
+                                4- text-transform: none-->  
+                                
+                        <!-- //////////////////////////////////////////////// -->
+                                
+                        <!-- How To Create The Header Of a Website?? -->
+                            <!-- 
+                                1- import the logo image and adjust its size to fit the header height.
+                                2- create a list of all the other links using "ul" and "li".
+                                3- adjust the "li" properities to make it look like words remove the underline/decoration.
+                                4- make the list an inline-block.. so that the words are side by side 
+                                5- make sure the logo and the list are float so they can be in same line.
+                                6- make each list item a link using the "a" tag.
+                                7- remove the link decoration and change its color as needed.
+                                8- add margins and hover effects if needed. thanks!
+                            -->
+                        
+    <!-- /////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////////////////// -->
+

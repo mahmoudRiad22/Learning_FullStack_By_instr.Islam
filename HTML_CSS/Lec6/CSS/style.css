@@ -1,22 +1,32 @@
+*{
+    margin: .5px;
+    padding: 0;
+}
+
 @font-face {
     font-family: "playwrite";
     src: url(../fonts/Playwrite_IT_Moderna/PlaywriteITModerna-VariableFont_wght.ttf);
 }
 body{
-    margin: 4px 4px;
-    background-color: black;
+    /* margin: 4px 4px; */
+    background-color: gray;
 }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
 
 /* #region Task of Lec 5 */
 
 .headerTitle{
     text-align: center;
-    color: darkblue;
-    background-color: lightpink;
+    color: lightblue;
+    /* background-color: lightpink; */
     margin: 3px 0px;
 }
 
 .parent{
+    height: 300px;
     overflow: auto;
     background-color: beige;
     border: 1px solid black;
@@ -38,7 +48,10 @@ body{
     font-family: "playwrite";
     float: left;
 
-    margin-right: 120px;
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+
 }
 
 .div1:hover{
@@ -111,7 +124,9 @@ body{
     font-family: "playwrite";
     float: left;
 
-    margin-right: 120px;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 .div2:hover{
@@ -185,6 +200,10 @@ body{
     font-family: "playwrite";
     float: left;
 
+    margin-top: 20px;
+    margin-left: 10px;
+
+
 }
 
 .div3:hover{
@@ -244,9 +263,18 @@ body{
 
 
 /* #endregion */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* #region Lec6 */
+
 
 .Lec6Parent{
-    height: 500px;
+    height: 1000px;
     background-color: lightcyan;
     margin: 0;
 }
@@ -256,5 +284,111 @@ body{
     font-size: 40;
     margin-top: 0;
     color: darkred;
+    background-color: lightsalmon;
 }
+
+
+/* #region div1 */
+.lec6div1{
+    width: 300px;
+    height: 250px;
+
+    border: 5px solid gray;
+    margin-left: 150px;
+
+    /* outline: red solid 5px ; */
+    /* outline-offset: 10px; */
+
+}
+
+.lec6div1Title1{
+    text-align: center;
+    border: inherit;
+}
+.a1{
+    margin-left: 90px;
+    font-size: 30px;
+
+    text-decoration: line-through;
+    display: block;
+}
+
+/* #endregion */
+
+
+/* #region div2 */
+
+.lec6div2p{
+    border: 1px solid black;
+    background-color: darkcyan;
+    color: rgb(209, 254, 254);
+
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: none; */
+}
+
+
+
+/* #endregion */
+
+
+/* #region the header */
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    background-color: rgb(116, 116, 116);
+
+}
+.headerLogo{
+    width: 100px;
+    height: 60px;
+
+    margin-left: 30px;
+    float: left;
+}
+
+.headerLogo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.headerlist{
+    list-style-type: none;
+    float: right;
+    margin-right: 100px;
+}
+
+.headerlist li{
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.headerlist  li:hover{
+    transform: scale(1.1);
+}
+
+.headerlist li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+    
+    /* border: 1px solid black; */
+    /* background-color: rgb(254, 0, 0); */
+
+}
+
+/* #endregion */
+
+
+/* #endregion */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
 
