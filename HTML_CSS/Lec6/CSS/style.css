@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "playwrite";
+    src: url(../fonts/Playwrite_IT_Moderna/PlaywriteITModerna-VariableFont_wght.ttf);
+}
+body{
+    margin: 4px 4px;
+    background-color: black;
+}
+
+/* #region Task of Lec 5 */
+
+.headerTitle{
+    text-align: center;
+    color: darkblue;
+    background-color: lightpink;
+    margin: 3px 0px;
+}
+
+.parent{
+    overflow: auto;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* #region div1 */
+.div1{
+    width: 300px;
+    height: 250px;
+
+    background-image: url(../images/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-family: "playwrite";
+    float: left;
+
+    margin-right: 120px;
+}
+
+.div1:hover{
+    transform: scale(1.06);
+}
+
+.div1Title{
+    text-align: center;
+    color: rgb(244, 69, 69);
+    font-size: 36;
+}
+
+.div1Title:hover{
+    transform: scale(1.05);
+    color: rgb(0, 47, 255);
+    /* background-color: rgba(255, 255, 224, 0.205); */
+}
+
+.div1 p{
+    text-align: center;
+    color: rgb(148, 11, 11);
+}
+
+.div1 p:hover{
+    transform: scale(1.05);
+    color: rgb(0, 47, 255);
+    /* background-color: rgba(10, 10, 0, 0.205); */
+}
+
+
+.div1 button{
+    width: 100px;
+    height: 40px;
+
+    margin-left: 90px;
+    margin-top: 30px;
+
+    background-color: lightsalmon;
+
+    border: none;
+    border-radius: 10px;
+    
+    text-align: center;
+    font-family: "playwrite";
+
+}
+
+.div1 button:hover{
+    transform: scale(1.05);
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+    /* background-position: bottom ease-in-out; */
+}
+/* #endregion */
+
+
+/* #region div2 */
+.div2{
+    width: 300px;
+    height: 250px;
+
+    background-image: url(../images/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-family: "playwrite";
+    float: left;
+
+    margin-right: 120px;
+}
+
+.div2:hover{
+    transform: scale(1.06);
+}
+
+.div2Title{
+    text-align: center;
+    color: rgb(244, 69, 69);
+    font-size: 36;
+}
+
+.div2Title:hover{
+    transform: scale(1.05);
+    color: rgb(0, 47, 255);
+    /* background-color: rgba(255, 255, 224, 0.205); */
+}
+
+.div2 p{
+    text-align: center;
+    color: rgb(148, 11, 11);
+}
+
+.div2 p:hover{
+    transform: scale(1.05);
+    color: rgb(0, 47, 255);
+    /* background-color: rgba(10, 10, 0, 0.205); */
+}
+
+
+.div2 button{
+    width: 100px;
+    height: 40px;
+
+    margin-left: 90px;
+    margin-top: 30px;
+
+    background-color: lightsalmon;
+
+    border: none;
+    border-radius: 10px;
+    
+    text-align: center;
+    font-family: "playwrite";
+
+}
+
+.div2 button:hover{
+    transform: scale(1.05);
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+    /* background-position: bottom ease-in-out; */
+}
+
+/* #endregion */
+
+
+/* #region div3 */
+.div3{
+    width: 300px;
+    height: 250px;
+
+    background-image: url(../images/pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-family: "playwrite";
+    float: left;
+
+}
+
+.div3:hover{
+    transform: scale(1.06);
+}
+
+.div3Title{
+    text-align: center;
+    color: rgb(244, 69, 69);
+    font-size: 36;
+}
+
+.div3Title:hover{
+    transform: scale(1.05);
+    color: rgb(0, 47, 255);
+    /* background-color: rgba(255, 255, 224, 0.205); */
+}
+
+.div3 p{
+    text-align: center;
+    color: rgb(148, 11, 11);
+}
+
+.div3 p:hover{
+    transform: scale(1.05);
+    color: rgb(0, 47, 255);
+    /* background-color: rgba(10, 10, 0, 0.205); */
+}
+
+
+.div3 button{
+    width: 100px;
+    height: 40px;
+
+    margin-left: 90px;
+    margin-top: 30px;
+
+    background-color: lightsalmon;
+
+    border: none;
+    border-radius: 10px;
+    
+    text-align: center;
+    font-family: "playwrite";
+
+}
+
+.div3 button:hover{
+    transform: scale(1.05);
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+    /* background-position: bottom ease-in-out; */
+}
+
+/* #endregion */
+
+
+/* #endregion */
+
+.Lec6Parent{
+    height: 500px;
+    background-color: lightcyan;
+    margin: 0;
+}
+
+.lec6Title{
+    text-align: center;
+    font-size: 40;
+    margin-top: 0;
+    color: darkred;
+}
+

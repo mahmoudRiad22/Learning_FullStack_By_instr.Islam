@@ -227,7 +227,8 @@ also this is a redo type situation as I stopped the course before and today will
             
             <!-- 1st step is to seperate between "text" type or "none-text" type -->
             <!-- "margine": used for the "NONE-TEXT" elements -->
-                    <!-- margine-left, margine-top, margine-right, margine-bottom]
+            
+                    <!-- margine-left, margine-top, margine-right, margine-bottom
                         margin = from all sides
                         margin: auto [to center single element inside its block with respect to its parent]
                         margin: top-bottom  left-right      i.e: margin: 100px 300px;
