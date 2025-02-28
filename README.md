@@ -298,3 +298,41 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- /////////////////////////////////////////////////////////////////////////// -->
     <!-- /////////////////////////////////////////////////////////////////////////// -->
 
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////// Summary of Lec 7 ///////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- How to make elements go on top of each other? -->
+                    <!-- just use the "position: absolute" properity -->
+                    <!-- A MUST: if any element is using "position: absolute" the parent MUST be "position: relative". -->
+                        <!-- why?: to make the childern always in-bound of the parent. will apear more when take "after and before". -->
+                    
+                <!-- "z-index": to re-order the items that are on top of each other. [the most top has the most value] -->
+                
+                <!-- re-cap of the "position" properity:
+                        - position: default = static
+                        - position: absolute
+                        - position: relative
+                        - position: fixed 
+                        
+                    -NOTE 1: "absolute" and "fixed" both make the element goes to the outter layer.. so we must use the 
+                    z-index in accordance when needed so that elements form the main layer and the outer layer done overlap.-->
+
+                    <!-- -NOTE 2: when we use position and go to the upper layer, we open the [top, bottom, left, right] properities -->        
+            
+                <!-- "opacity": used to make the elements "see-through" takes the range of [0-1] -->
+        <!-- //////////////////////////////////////////////////////////////////// -->
+
+
+                <!-- Appear vs Disappear effects: -->
+                    <!-- in all front study there is 11 ways to do it. -->
+                    <!-- in CSS: there is 3 ways only:
+                            1- "opacity : 0 vs 1;" : element is not shown but it still exists.
+                            2- "visability: hidden vs visible" : the element is removed but its place is reserved.
+                            3- "display: none vs block" : the element is compeletly removed == delete.-->
+
+
+                <!-- NOTE:  always use <br> between divs to seperate it correctly.. good practice untill proven wrong later-->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
