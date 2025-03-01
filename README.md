@@ -336,3 +336,51 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////// Summary Lec 8 //////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Specificity equation: -->
+                    <!-- styleinline        id      [class      :pseudo-class    attr-selector]      element -->
+            
+            <!--
+            "id":           0               1                           0                               0       =100
+            "class":        0               0                           1                               0       =10
+            "pseudo class": 0               0                           1                               0       =10
+            "styleinline":  1               0                           0                               0       =1000
+            "element":      0               0                           0                               1       =1
+
+            -->
+        
+        <!-- styleinline, class, id: we know them from before alread -->
+        
+        <!-- styleline: "1000" -->
+
+        <!-- id: "100" -->
+
+        <!-- class: "10" -->
+
+        <!-- pseudo classes: "10" -->
+            <!-- ":hover" : gives effect when crusor hover over the element. -->
+            <!-- ":active" : gives effect when we actively click and hold the clickable-elements. -->
+            <!-- ":focus" : gives effect once the element is activated at least once fo clickable-elements. -->
+
+        <!-- att selector: "10" -->
+            <!-- [type="text"] -->
+
+        <!-- pseudo elements/ elements: "1" -->
+            <!-- "after" and "before" : will be studied later -->
+        
+
+        <!-- CSS:
+                transform: translate(); ["transform" :the element is talking to itself]
+                position: relative [for the parent or the bigger parent.]
+                position: absolute [for the childern to free them into another layer.] 
+                height: using "vh" = "view height"[100% gives the exact height of the screen.]
+                        similiar to width: 100% [covers the whole width of the screen regardless.]-->
+        
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->

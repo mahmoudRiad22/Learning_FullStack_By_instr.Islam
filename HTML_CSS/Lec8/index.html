@@ -1,0 +1,134 @@
+<html>
+    <head>
+
+        <title>Lec 8</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./CSS/style.css">
+
+    </head>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <body>
+
+        <!-- Specificity equation: -->
+                    <!-- styleinline        id      [class      :pseudo-class    attr-selector]      element -->
+            
+            <!--
+            "id":           0               1                           0                               0       =100
+            "class":        0               0                           1                               0       =10
+            "pseudo class": 0               0                           1                               0       =10
+            "styleinline":  1               0                           0                               0       =1000
+            "element":      0               0                           0                               1       =1
+
+            -->
+
+        <!-- pseudo classes: -->
+        <!-- ":hover" : gives effect when crusor hover over the element. -->
+        <!-- ":active" : gives effect when we actively click and hold the clickable-elements. -->
+        <!-- ":focus" : gives effect once the element is activated at least once fo clickable-elements. -->
+
+
+        <!-- pseudo elements: -->
+            <!-- "after" and "before" : will be studied later -->
+        
+
+        <div class="div1">
+                <h2 class="title1" style="background-color: brown;">Lec 8 div 1</h2> <!-- styleinline-->
+                <h2 id="two" class="title2">AREA</h2> <!-- styleinline-->
+                <a href="#">facebook</a>
+
+        </div>
+
+
+        <!-- att selector: -->
+            <!-- [type="text"] -->
+        <div class="div2">
+
+            <input type="text">
+            <input type="password">
+            <input type="text">
+            <input type="text">
+            <input type="password">
+            <input type="text">
+            <input type="email">
+            <input type="password">
+            <input type="password">
+            <input type="text">
+            <input type="text">
+            <input type="password">
+            <input type="text">
+            <input type="password">
+        </div>
+
+        <br><hr>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        
+
+        <div class="div3">
+            <div class="overlay">
+                <div class="content">
+                    <h2>we are creative agency</h2>
+                    <p>orem ipsum dolor sit amet consectetur, adipisicing elit</p>
+                    <button class="btn1">get started!</button>
+                    <button class="btn2">learn more</button>
+                </div>
+            </div>
+        </div>
+    </body>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</html>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////// Summary Lec 8 //////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- Specificity equation: -->
+                    <!-- styleinline        id      [class      :pseudo-class    attr-selector]      element -->
+            
+            <!--
+            "id":           0               1                           0                               0       =100
+            "class":        0               0                           1                               0       =10
+            "pseudo class": 0               0                           1                               0       =10
+            "styleinline":  1               0                           0                               0       =1000
+            "element":      0               0                           0                               1       =1
+
+            -->
+        
+        <!-- styleinline, class, id: we know them from before alread -->
+        
+        <!-- styleline: "1000" -->
+
+        <!-- id: "100" -->
+
+        <!-- class: "10" -->
+
+        <!-- pseudo classes: "10" -->
+            <!-- ":hover" : gives effect when crusor hover over the element. -->
+            <!-- ":active" : gives effect when we actively click and hold the clickable-elements. -->
+            <!-- ":focus" : gives effect once the element is activated at least once fo clickable-elements. -->
+
+        <!-- att selector: "10" -->
+            <!-- [type="text"] -->
+
+        <!-- pseudo elements/ elements: "1" -->
+            <!-- "after" and "before" : will be studied later -->
+        
+
+        <!-- CSS:
+                transform: translate(); ["transform" :the element is talking to itself]
+                position: relative [for the parent or the bigger parent.]
+                position: absolute [for the childern to free them into another layer.] 
+                height: using "vh" = "view height"[100% gives the exact height of the screen.]
+                        similiar to width: 100% [covers the whole width of the screen regardless.]-->
+        
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
