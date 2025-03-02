@@ -11,7 +11,7 @@ also this is a redo type situation as I stopped the course before and today will
         <!-- Lec 1 summary:
                 1- the title tag to change the title of the page.
                 2- the headline tags to put headlines, only use the h1 tag one for the SEO item.
-                3- the paragraph tags "p" "span".
+                3- the paragraph tags "p" and "span".
                 4- the button tag "button".
                 5- HTML is to create things CSS is to stylish it.
         -->
@@ -22,6 +22,7 @@ also this is a redo type situation as I stopped the course before and today will
 
     <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////////////////// Summary of lec 2 ///////////////////////////////////////-->
+    <!-- Link:https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec2/ -->
     <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
 
         <!-- "img" tag to add a pic to your page.[default draggable = "true"] -->
@@ -58,6 +59,7 @@ also this is a redo type situation as I stopped the course before and today will
 
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- //////////////////////////// LEC 3 Summary ///////////////////////////////////////////////// -->
+    <!-- Link:https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec3/ -->
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
 
@@ -124,6 +126,7 @@ also this is a redo type situation as I stopped the course before and today will
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////// Summary of lec 4 ////////////////////////////////////////////////////// -->
+    <!-- Link:https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec4/ -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     
         <!-- 3 ways to style an element -->
@@ -182,6 +185,7 @@ also this is a redo type situation as I stopped the course before and today will
 
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
     <!-- //////////////////////// Summary of LEC 5 //////////////////////////////////// -->
+    <!-- Link:https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec5/ -->
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
             <!-- Tables: -->
                 <!-- a table has:
@@ -254,6 +258,7 @@ also this is a redo type situation as I stopped the course before and today will
 
     <!-- /////////////////////////////////////////////////////////////////////////// -->
     <!-- //////////////////////////// Summary of Lec 6 ///////////////////////////// -->
+    <!-- Link:https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec6/ -->
     <!-- /////////////////////////////////////////////////////////////////////////// -->
             <!-- the naming of CSS selectors:
                         .selector{
@@ -302,6 +307,7 @@ also this is a redo type situation as I stopped the course before and today will
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- /////////////////////// Summary of Lec 7 ///////////////////////////////////////////////// -->
+    <!-- Link:https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec7/ -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 
         <!-- How to make elements go on top of each other? -->
@@ -342,6 +348,7 @@ also this is a redo type situation as I stopped the course before and today will
     
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- /////////////////////////// Summary Lec 8 //////////////////////////////////////////////////////////////// -->
+    <!-- Link:https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec8/ -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
         <!-- Specificity equation: -->
@@ -390,6 +397,7 @@ also this is a redo type situation as I stopped the course before and today will
 
     <!-- ////////////////////////////////////////////////////////////////// -->
     <!-- /////////////////// Summary Lec 9 Icons ////////////////////////// -->
+    <!-- Link: https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_icons/ -->
     <!-- ////////////////////////////////////////////////////////////////// -->
             <!-- how to add icons into the website:
             1- go to "font awsome": https://fontawesome.com/ 
