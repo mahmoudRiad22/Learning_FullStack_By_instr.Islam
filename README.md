@@ -5,6 +5,8 @@ this repo will contain all the projects and task during my journey learning fron
 
 also this is a redo type situation as I stopped the course before and today will contiue from scratch.. lets have some fun :)
 
+##Summary of Lec 1: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec1/)
+
         <!-- ============================================================================== -->
         <!-- ============================================================================== -->
 
