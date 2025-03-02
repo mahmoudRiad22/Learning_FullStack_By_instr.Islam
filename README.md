@@ -440,18 +440,19 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////// -->
 
+
     <!-- ///////////////////////////////////////////////////////////////////////////// -->
     <!-- //////////////////////// summary of lec9 part2 ///////////////////////////// -->
     <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+                   
+[original-full-website](https://islam28497.github.io/Template_1/)&emsp;&emsp;&emsp;&emsp;[the Lec9 section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_section/section_code/)&emsp;&emsp;&emsp;&emsp;[My Work for the section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_section/)  
+   
 
             <!-- the Lec was a practical section of a website 
                  the section we took was the "Our team" section of the website
                  we haven't taken the "transition" attribute to make the full effect yet.
                 -->
-
-[original-full-website](https://islam28497.github.io/Template_1/)
-[the Lec9 section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_section/section_code/)
-[My Work for the section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_section/)
     <!-- ///////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////////////////////////////////////////////////////////////// -->
