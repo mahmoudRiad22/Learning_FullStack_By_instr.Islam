@@ -1,7 +1,115 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
+} */
+
+.fb{
+    font-size: 40px;
+    color: rgb(36, 118, 241);
+    position: relative;
 }
+.fb a{
+    position: absolute;
+    transform: translate(-105%,0);
+    color: rgba(0, 255, 255, 0);
+
+}
+
+.linkedin{
+    font-size: 40px;
+    color: darkblue;
+}
+
+.insta{
+    font-size: 40px;
+    color: lightsalmon;
+}
+.google{
+    font-size: 40px;
+    color: olivedrab;
+    position: relative;
+}
+.google a{
+    position: absolute;
+    transform: translate(-105%,0);
+    color: rgba(255, 228, 196, 0);
+}
+
+.youtube{
+    font-size: 40px;
+    color: red;
+    position: relative;
+}
+.youtube a{
+    font-size: 35px;
+    /* font-weight: 900; */
+    
+    color: rgba(0, 0, 255, 0);
+    position: absolute;
+    transform: translate(-100%);
+}
+/* ///////////////////////////////////// */
+/* ///////////////////////////////////// */
+.div0{
+    background-color: beige;
+}
+
+/* /////////////////////////// */
+/* /////////////////////////// */
+
+
+.div1{
+    width: 350px;
+    height: 300px;
+    border: solid black;
+    border-radius: 7px;
+    background-color: lightgrey;
+}
+
+
+.div1 .title1{
+    visibility: hidden;
+}
+
+.div1:hover .title1{
+    visibility: visible;
+}
+/* /////////////////////////// */
+/* /////////////////////////// */
+
+.div2 .title2:active{
+    display: none;
+}
+
+
+
+.div2 .link1:focus{
+    color: red;
+}
+
+
+
+.div2 .btn2 .span1 , .span2{
+    text-transform: uppercase;
+}
+
+.div2 .btn2 .span2{
+    display: none;
+}
+
+
+.div2 .btn2:hover .span1{
+    display: none;
+}
+
+
+.div2 .btn2:hover .span2{
+    display: inline;
+}
+
+
+
+
 
 
 

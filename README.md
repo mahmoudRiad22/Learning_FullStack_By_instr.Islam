@@ -386,3 +386,43 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- ////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////// Summary Lec 9 Icons ////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////// -->
+            <!-- how to add icons into the website:
+            1- go to "font awsome": https://fontawesome.com/ 
+            2- get teh webfonts and the all.css file to ur project.
+
+            3- go back to "fontawsome" ad choose the icon you want.
+            4- copy the code and add it to your code.
+
+            5- link your "index.html" file with the "all.css" file in the header.
+            6- ALL ICONS ARE TREATED AS "TEXTS".
+            -->
+
+
+            <!-- appear vs disappear an element:
+                1- using the "opacity" attribute.
+                2- "visablity : hidden vs visible": it saves teh palce of the item.
+                3- "display: none vs block": it remove the item fully.
+             -->
+
+
+            <!-- there is 3 pesudo classes:
+                1- ":hover"
+                2- "active"
+                3- "focus": so far only works with links not text!! -->
+
+
+
+            <!-- the rest of the lecture is a recap of the "specifity equation"
+                styleinline     id      [class  pesudo-class    attr-selector]      element 
+            check the "lec 8 summary" to fully recap it :) -->
+
+
+            <!-- 406, 305 -->
+    <!-- ////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////// -->
