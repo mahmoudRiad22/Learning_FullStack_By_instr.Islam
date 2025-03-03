@@ -1,0 +1,166 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lec 10</title>
+        <link rel="stylesheet" href="./CSS/all.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+
+    </head>
+
+    <body>
+        <div class="our_team_section">
+
+            <div class="our_team_header">
+
+                <h2 class="title">our team</h2>
+                <p class="line"></p>
+            </div><!-- /our_team_header -->
+            <br>
+            <div class="container">
+
+                <div class="team_item">
+
+                    <div class="team_item_img">
+                        
+                        <img src="./Images/trainer-3.jpg" alt="person_pic.jpg" width="100%">
+
+
+                        <div class="overlay">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-sharp fa-solid fa-x"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div><!-- /overlay -->
+
+                    </div><!-- /team_item_img -->
+
+                    <div class="team_item_info">
+
+                        <p class="team_item_info_name"> name</p>
+                        <span class="team_item_info_job">job title</span>   
+
+                    </div><!-- /team_item_info -->
+
+                    <div class="team_item_cover">
+
+                    </div><!-- /team_item_cover -->
+                </div><!-- /team_item -->
+
+
+                <div class="team_item middle">
+
+                    <div class="team_item_img">
+                        
+                        <img src="./Images/trainer-1.jpg" alt="person_pic.jpg" width="100%">
+
+
+                        <div class="overlay">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-sharp fa-solid fa-x"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div><!-- /overlay -->
+
+                    </div><!-- /team_item_img -->
+
+                    <div class="team_item_info">
+
+                        <p class="team_item_info_name"> name</p>
+                        <span class="team_item_info_job">job title</span>   
+
+                    </div><!-- /team_item_info -->
+                    <div class="team_item_cover">
+
+                    </div><!-- /team_item_cover -->
+
+                </div><!-- /team_item -->
+
+
+                <div class="team_item">
+
+                    <div class="team_item_img">
+                        
+                        <img src="./Images/trainer-2.jpg" alt="person_pic.jpg" width="100%">
+
+
+                        <div class="overlay">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-sharp fa-solid fa-x"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div><!-- /overlay -->
+
+                    </div><!-- /team_item_img -->
+
+                    <div class="team_item_info">
+
+                        <p class="team_item_info_name"> name</p>
+                        <span class="team_item_info_job">job title</span>   
+
+                    </div><!-- /team_item_info -->
+                    <div class="team_item_cover">
+
+                    </div><!-- /team_item_cover -->
+                </div><!-- /team_item -->
+
+            </div><!-- /container -->
+
+        </div><!-- /our_team_section -->
+    </body>
+</html>
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- //////////////////////// Summary of lec 10 /////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- The lec has 3 parts: -->
+            <!-- part 1: the position properity
+                    [relative, absolute, fixed, default= static]
+                    we use the position properit when we need the element to be moved
+                    to and outer layer. [simply to make things appear on top of each other]. -->
+                
+
+            <!--  part 2: the use of "opacity" + "transition" properties..to produce
+                    an animated appear and disappear effect
+                        - the transition must be on the element itself, so that the effect will
+                          happen in both ways "in-state" and "out-state". 
+                        - if "transition" is in the "main selector".. it happens 2 times, Both In-state
+                            and the Exit-state get a transition effect.
+
+                        - if "transition" is in the "effect selector".. only the In-state takes a 
+                            transition effect while the exit-state is done in zero time. -->
+
+            <!-- part 3: the "::after" and "::before" effect
+                        "::after" :- is a duplicated pesudo-element that is created after the main element.
+                        "::before":- is a duplicated pesudo-element that is created before the main elemet.
+
+                        -- How to use?:-
+                            0- DON'T forget the "content: ''".
+                            1- must start from a corner aka[top/bottom + left/right].
+                                top: 0;     left: 0;
+                                top: 0;     right: 0;
+
+                                bottom: 0;  left: 0;
+                                bottom: 0;  right: 0;
+
+                            2- if u want to start form a single point or a line:
+                                    -if single point: width: 0; height: 0;
+                                    - if a line: there is 4 line
+                                            top-line: width:100%; height: 0;
+
+                                            bottom-line: width:100%; height: 0;
+
+                                            left-line: width: 0; height: 100%;
+
+                                            right-line: width: 0; height: 100%;
+
+                            3- the "transition" timer:
+                                    always write the "transtion" on the main element not the effect[":hover"].
+                        
+                     -->
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+
+
+

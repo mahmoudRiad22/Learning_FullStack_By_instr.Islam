@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.our_team_header .title{
+    text-align: center;
+
+    font-size: 46px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    text-transform: capitalize;
+}
+.our_team_header .line{
+    height: 4px;
+    width: 110px;
+
+    background-color: blue;
+
+    margin: auto;
+}
+
+
+
+.container{
+    background-color: aqua;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.team_item{
+    width: 30%;
+    height: auto;
+    border: solid black;
+    padding: 1.3% 2%;
+    float: left;
+    background-color:rgb(176, 176, 176);
+    position: relative;
+}
+
+
+
+.team_item_img{
+    /* border: solid brown; */
+    background-color: blueviolet;
+    position: relative;
+
+}
+
+.team_item_img .overlay{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.team_item_img .overlay i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(127, 201, 225);
+    display: block;
+    /* border: 1px solid red; */
+    position: relative;
+    z-index: 1;
+    margin-left: auto;
+}
+
+.team_item_img .overlay a{
+    text-decoration: none;
+}
+
+
+
+
+.middle{
+    margin: 0 5%;
+}
+
+
+
+.team_item_info{
+    text-align: center;
+}
+
+.team_item_info_name{
+    font-size: large;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.team_item_info_job{
+    font-size: medium;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+
+
+.team_item:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+    transition: .5s;
+
+}   
+
+.team_item:hover .team_item_info_name{
+    color: aliceblue;
+}
+
+.team_item:hover .team_item_info_job{
+    color: blue;
+}
+
+.team_item_cover::after{
+    /* border: solid   red; */
+    content: "";
+    width: 100%;    height: 0%;
+    position: absolute;
+    top: 0;     left: 0;
+    z-index: 0;
+    background-color: rgba(72, 71, 71, 0.3);
+    opacity: 0;
+    transition: 1s;
+
+
+}
+
+.team_item:hover .team_item_cover::after{
+    opacity: 1;
+    width: 100%;    height: 100%;
+}
+

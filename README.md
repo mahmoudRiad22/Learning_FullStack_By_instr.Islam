@@ -456,3 +456,64 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ///////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////////////////////////////////////////////////////////////// -->
+
+
+
+[new-part-with-after&before-effect](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec10/)
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- //////////////////////// Summary of lec 10 /////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+        <!-- in the lecture we learned the "::after" nad "::before" effect and
+                practiced it using the cover div in the. -->
+
+        <!-- The lec has 3 parts: -->
+            <!-- part 1: the position properity
+                    [relative, absolute, fixed, default= static]
+                    we use the position properit when we need the element to be moved
+                    to and outer layer. [simply to make things appear on top of each other]. -->
+                
+
+            <!--  part 2: the use of "opacity" + "transition" properties..to produce
+                    an animated appear and disappear effect
+                        - the transition must be on the element itself, so that the effect will
+                          happen in both ways "in-state" and "out-state". 
+                        - if "transition" is in the "main selector".. it happens 2 times, Both In-state
+                            and the Exit-state get a transition effect.
+
+                        - if "transition" is in the "effect selector".. only the In-state takes a 
+                            transition effect while the exit-state is done in zero time. -->
+
+            <!-- part 3: the "::after" and "::before" effect
+                        "::after" :- is a duplicated pesudo-element that is created after the main element.
+                        "::before":- is a duplicated pesudo-element that is created before the main elemet.
+
+                        -- How to use?:-
+                            0- DON'T forget the "content: ''".
+                            1- must start from a corner aka[top/bottom + left/right].
+                                top: 0;     left: 0;
+                                top: 0;     right: 0;
+
+                                bottom: 0;  left: 0;
+                                bottom: 0;  right: 0;
+
+                            2- if u want to start form a single point or a line:
+                                    -if single point: width: 0; height: 0;
+                                    - if a line: there is 4 line
+                                            top-line: width:100%; height: 0;
+
+                                            bottom-line: width:100%; height: 0;
+
+                                            left-line: width: 0; height: 100%;
+
+                                            right-line: width: 0; height: 100%;
+
+                            3- the "transition" timer:
+                                    always write the "transtion" on the main element not the effect[":hover"].
+                        
+                     -->
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////// -->
