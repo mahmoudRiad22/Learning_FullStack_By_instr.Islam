@@ -518,8 +518,8 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////// -->
 
-    [my own the home-section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec11/)  
-    [original-full-website](https://islam28497.github.io/Template_1/)  
+[my own the home-section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec11/)  
+[original-full-website](https://islam28497.github.io/Template_1/)  
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- //////////////////////// Summary of lec 11 /////////////////////////////////////////// -->
