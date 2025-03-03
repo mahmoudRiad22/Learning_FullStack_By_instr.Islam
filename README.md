@@ -517,3 +517,76 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////// -->
+
+    [my own the home-section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec11/)  
+    [original-full-website](https://islam28497.github.io/Template_1/)  
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- //////////////////////// Summary of lec 11 /////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <!--CSS units:
+                    1- "px": pixels
+                    2- "em": a value unit measure that multiple the value of the aprent element
+                            ex:
+                                parent:     font-size = 3px;
+                                child:      font-size = 4em === 4 * 3px = 12px 
+                            
+                    
+                    3- "rem": the value thats muliplied by the "root value".
+                            ex:
+                                parent:     font-size = 5px;
+                                child:      font-size = 6rem === 6 * 16px[root value] = 96px.
+                    
+                    
+                    4 "vh" and "vw":
+                        "vh" : view-height of a single frame screen resolution[0% ~ 100%].
+                        "vw" : view-width of a single frame screen reslution[0% ~ 100%].
+
+            -->
+                
+            <!--Selectors:
+                    - know the difference between a "child" and a "direct-child".
+                    ex:
+                        -- "space" : "general child selector"
+                            .parent h2{  
+                                color: red;
+                            }
+
+                        -- ">": "direct child selector"
+                            .parent > h2{  
+                                color: red;
+                            }
+
+                        -- "+" : "next direct sibling selector": [if not matched.. its cancelled]
+                            .div2 + h2{
+                                color: blueviolet;
+                            }
+
+                        -- "~" : "general sibling selector"
+                            .div2 ~ h2{
+
+                            }
+                -->
+
+
+            <!-- last part of the lecture is to design the "home-section" of the website_1 
+                -- Hero image: used to centralize any element exactly in the middle of the screen
+
+                    1- make it into a free layer using "postion: absolute", and give the parent "relative".
+                    2- make the "top: 50%" and "left: 50%" to move to the center.
+                    3- use "transform: trnaslate()" to change the pivot point of the element to the exact center.
+
+                    [
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        tramsform: translate(-50%, -50%)
+                    ]
+            -->
+                
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+
