@@ -70,6 +70,7 @@ body{
 }
 /* #endregion */
 
+
 /* #region main_sec */
 
 
@@ -155,8 +156,8 @@ body{
 }
 .container{
     width: 80%;
-    /* height: auto; */
-    /* border: 1px solid red; */
+    /* background-color: bisque; */
+
     margin: auto;
     overflow: hidden; /* to counter the float  effect*/
 }
@@ -235,6 +236,135 @@ body{
     height: 100%;
     color: aliceblue;
 }
+
+/* #endregion */
+
+
+/* #region features */
+
+
+.features_sec{
+    overflow: hidden;
+    padding: 120px 0px;
+    background-color:rgb(219, 219, 219);
+}
+
+.features_sec .title{
+    text-align: center;
+    /* padding-top: 100px; */
+    text-transform: capitalize;
+}
+.features_sec .line{
+    border: 2px solid rgb(0, 106, 255);
+    width: 50px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+}
+
+
+ .features_sec .features_item{
+    width: 30%;
+    height: 260px;
+    /* border: 2px solid black; */
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.features_item .image{
+    width: 80%;
+    margin: auto;
+    background-color:rgb(165, 167, 168);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.features_content_overlay{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    opacity: 0;
+
+}
+
+.features_content_overlay:hover{
+    opacity: 1;
+}
+
+.features_content{
+    text-align: center;
+    position: absolute;
+
+    width: 100%;
+
+    top: 50%;
+    left:50%;
+    
+    transform: translate(-50%, -50%);
+}
+
+
+.features_content h2{
+    text-transform: uppercase;
+    font-size: medium;
+    /* color:dodgerblue; */
+    color: rgb(76, 76, 232);
+
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform .5s, opacity .5s;
+
+}
+
+.features_content_overlay:hover .features_content h2{
+    opacity: 1;
+    transform: translateY(0%);
+}
+.features_content p{
+    color: aliceblue;
+    margin-bottom: 8px;
+
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform .5s, opacity .5s;
+    transition-delay: .2s;
+}
+
+.features_content_overlay:hover .features_content p{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.features_content a{
+    text-decoration: none;
+}
+.features_content a i{
+    background-color: #3f77d7;
+
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform .5s, opacity .5s;
+    transition-delay: .4s;
+
+}
+
+.features_content_overlay:hover .features_content a i{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
 
 /* #endregion */
 
