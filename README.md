@@ -591,3 +591,41 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
+[my own version of the website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec12_project/) 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+[original-full-website](https://islam28497.github.io/Template_1/)  
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////// Summary of lec 12  "HTML5" ///////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+                                <!-- Now we start "HTML5" -->
+        <!-- 
+            -- symantic elements:
+                    [header, main, section, footer, aside, nav, article, figure, figcaption].
+            
+        -->
+
+        <!--       Lec 12 is the same as Lec 13.. so i will spend the time to
+                    finish the website instead. 
+        -->
+
+
+        <!-- 
+            -- TRANSTION:
+                -- the before transition MUST be stated in the main selector.
+                -- the after transion is done in the ":hover" selector.
+        -->
+
+
+                            <!--  The Website Progress -->
+
+               <!-- 1- Finished the header bar.
+                    2- Finished the main section.
+                    3- Finished the Welcome section.
+                    4- Finished the features section./ updating the project file and README file
+                -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
