@@ -1,0 +1,9 @@
+
+
+input:optional{
+    background-color: lightblue;
+}
+
+input:required{
+    background-color: red;
+}

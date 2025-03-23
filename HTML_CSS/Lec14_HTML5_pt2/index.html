@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lec 14</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <!-- new input types -->
+
+        <input type="button" value="send1">
+        <button>send2</button>
+
+
+        <input type="color"><!-- visit this for color palletes : https://colorhunt.co/ -->
+
+
+        <input type="image" src="#" alt="name 1">
+        <img src="#" alt="name 2"> <!-- note the difference between the crusor shape -->
+
+
+        <input type="reset"><!-- used to reset all the data currently on the web -->
+        <input type="button" value="reset2">
+        <button>reset3</button>
+        <!-- note: the difference between the "reset" buttons is, only the 1st one has the function ready for it
+                    the rest of the btuttons require you to code its functions using JS later in script file.  -->
+
+
+
+        <input type="submit"><!-- build-in button only need to link it properly -->
+        <input type="button" value="submit"><!-- need to create all the functions for it using JS. -->
+        <button>submit</button> <!-- need to create all the functions for it using JS. -->
+
+        
+
+        <input type="hidden"><!-- used to hide the element and MUST be the first on the open tag. -->
+
+
+        <input type="number" min="10" max="1000" step="5">
+        
+        <!-- //////////////////////////////////////////////////////////////////////////////// -->
+        <!-- /////////////////////////////// attributes ///////////////////////////////////// -->
+        <!-- //////////////////////////////////////////////////////////////////////////////// -->
+
+        <!-- readonly vs disabled -->
+            <!-- both of them make the element unchangable, but only "readonly" allow for it to be focusable -->
+
+        <input type="text" value="mahmoud"  readonly>
+
+        <input type="text" value="disabled"     disabled>
+
+        <!-- "size": an attribute that is === to width but the value is in letter value -->
+        <input type="text" size="30"><!-- the width === 30 letters -->
+
+
+        <!-- maxlenght vs minlength -->
+            <!-- "maxlength":  used to cap the max length of the input -->
+            <!-- "minlength":  used to cap the min length of the input -->
+            <input type="text" minlength="5" maxlength="10">
+
+        <!-- multible -->
+            <input type="file"> <!-- allow to upload a single file at a time. -->
+            <input type="file" multiple><!-- allow u to upload multiple files -->
+
+        <!-- required vs optional -->
+            <input type="text" required>
+
+        <!-- optional -->
+            <input type="text"><!-- all inputs are optional by default -->
+            <input type="text" required>
+            <input type="text" required>
+            <input type="text"><!-- all inputs are optional by default -->
+            <input type="text"><!-- all inputs are optional by default -->
+            <input type="text" required>
+            <input type="text" required>
+            <input type="text"><!-- all inputs are optional by default -->
+
+        <!-- form attributes: -->
+        <!-- autocomplete="on" / "off" -->
+        <!-- novalidate--> <!-- does not allow for validating the data entered -->
+        <!-- autofocus --> <!-- directly move the crusor to the targetted element -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////////// -->
+        <!-- //////////////////////////////////////////////////////////////////////////////// -->
+        <!-- //////////////////////////////////////////////////////////////////////////////// -->
+
+        
+
+</body>
+
+</html>
