@@ -1,0 +1,19 @@
+
+/* 
+progress{
+    color: bisque;
+}
+
+progress::-webkit-progress-value{
+    background: blueviolet;
+}
+ */
+
+
+progress{
+    width: 200px;
+    height: 20px;
+    accent-color: rgb(191, 0, 255);
+
+}
+ 
