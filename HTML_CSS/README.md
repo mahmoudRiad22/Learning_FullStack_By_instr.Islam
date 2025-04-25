@@ -591,7 +591,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
-[my own version of the website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec12_project/) 
+[my own version of the website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec12_project/) 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 [original-full-website](https://islam28497.github.io/Template_1/)  
 
