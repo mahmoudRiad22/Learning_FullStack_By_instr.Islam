@@ -1,0 +1,153 @@
+<!-- 
+    //////////////// Summary_1 ////////////////
+
+        html: is mainly used to create the elements of the website.
+        js: is used to make the elemnts function properly as a whole.
+        CSS: is mainly used for styling "look-good" the elemnts of the website.
+
+        html tags:
+            1- "title": used to change the display name of the page.
+
+            2- "h1" -> "h6": header tags used for headlines, the "h1" is used for SEO.
+
+            3- paragraph tags:
+                    "p": the paragraph tag act as a block type element.
+                    "span": also for paragraph act as an inline block element.
+
+            4- "button": this is used to create a button type element similar to the "input type="button"" tag.
+
+            5- "br", "hr": for newline break and horizontal line break.
+
+            6- "img": used to upload image into the website
+                    takes few attributes such as:
+                        - "src": source place of the pic.
+                        - "alt": name to display if pic not found or not uploaded.
+                        - "width": known.
+                        - "height": known.
+
+            7- "a": an anchor link for redirecting to other links.
+                    takes few attributes like:
+                        - "href": the link to be re-directed to.
+                        - "target": [_plank] ==> open in a new tab.
+                                    [_self] ==> open in same/current tab "default state".
+
+            8- "iframe": an embeded link from external websites, a simple copy paste is all u need to do.
+
+            9- "ul" & "ol" & "dl": used to create a list of elements.
+                    - "ul": is used for unordered list aka simple dotted list.
+                    - "ol": is for ordered list by default its numbered starting from 1,
+                          but you can change the ordring type using the attribute "type" in the openning tag.
+                            <ol type="I">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                    - "dl": a describtive list, simply contain multiple sub lists
+
+                            <dl>
+                                <dt>sublist1
+                                    <dl></dl>
+                                    <dl></dl>
+                                </dt>
+
+                                <dt>sublist2
+                                    <dl></dl>
+                                    <dl></dl>
+                                </dt>
+
+                                <dt>sublist3
+                                    <dl></dl>
+                                    <dl></dl>
+                                </dt>
+                                
+                            </dl>
+
+            10- "select": used to select from multiple options.
+                          best practice is to hide the 1st option to make it contain the name/type of the
+                          list of options.
+
+            11- "form": a form in simply a collection of inputted info from the user.
+                            any form contain a multiple number of ["label(s)" + "input"].
+
+                        == input types are: [takes attributes as "placeholder"]
+                            - "text"
+                            - "password"
+                            - "email"
+                            - "checkbox"
+                            - "radio": use same name attribute to choose only one of the options.
+                            - "select"
+                            - "textarea": takes attributes "rows", "cols", "placeholder"
+
+            12- "meta": with "charset="utf-8" attribute to make the website accept arabic lango.
+                        also uses the attributes [name="keywords" content="some content of the keywords"].
+                        also uses the attributes [name="decribtion" content="content of teh describtion"].
+            
+            13- "link": used to link the CSS files into the html file.
+ -->
+
+<!-- 
+    //////////////// text type tags ////////////////
+    "p"
+    "span"
+    "h1", "h2", "h3", "h4", "h5", "h6"
+    /////////////////////////////////////////////////
+    //////////////// seperation tags ////////////////
+    "br"
+    "hr"
+    /////////////////////////////////////////////////
+    //////////////// media tags ////////////////
+    "img"
+
+
+            todo:
+            continue summary of lec3...
+
+
+
+ -->
+<html>
+
+
+    <head>
+        <title>Summary_1</title>
+    </head>
+
+    <body>
+        <input type="button" value="submit1" name="" id="">
+        <button>submit2</button>
+
+        <br><hr>
+
+        <dl>main list:
+
+            <dt>sublist1
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+            </dt>
+
+            <dt>sublist2
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+            </dt>
+
+            <dt>sublist3
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+                <dl>item 1</dl>
+            </dt>
+        </dl>
+
+        <select name="" id="">
+            <option value="" hidden>name of the list of options</option>
+            <option value="">option1</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+            <option value="">option4</option>
+        </select>
+    </body>
+</html>

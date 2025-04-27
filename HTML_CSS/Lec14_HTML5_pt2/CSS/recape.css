@@ -1,0 +1,35 @@
+/* 
+    New CSS attributes:
+        input:out-of-range
+        input:in-range
+        input:required
+        input:optional
+        p::selection
+        span::selection
+ */
+
+input:out-of-range {
+  background-color: red;
+}
+
+input:in-range {
+  background-color: lightgreen;
+}
+
+input:required {
+  background-color: rgb(249, 157, 157);
+}
+input:optional {
+  background-color: lightblue;
+}
+
+p::selection{
+    background-color: red;
+    color: white;
+}
+
+span::selection{
+    background-color: black;
+    color: aliceblue;
+}
+

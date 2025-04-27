@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>recape of lec 14</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS/recape.css">
+</head>
+
+<body>
+    <!-- new input types:
+            "button": attribute "value".
+            "color": attribute "value".
+            "image": attribute "src" "width" "height"
+            "reset": none
+            "submit": none
+            "hidden": must be first type.
+            "number": attributes "min", "max", "step".
+    -->
+
+    <!-- general attributes for input:
+            - "name"
+            - "id"
+            - "required"
+            - "optional": by default.
+            - "auto"
+
+     -->
+
+    <!-- attributes for input type="text":
+            - "readonly": makes the element non-changable but can be focused.
+            - "disabled": makes the element non-changable but can NOT be focused.
+     -->
+
+    <!-- attributes for input type="password":
+            - "maxlength": to limit the max length of a password.
+            - "minlength": the least amount of letters allowed for a password.
+     -->
+
+    <!-- attributes for input type="file":
+            - "multiple": allow muliple files to be uploaded.
+     -->
+
+
+    <!-- total = 22 input types:
+            <input type="hidden">
+            <input type="button">
+            <input type="checkbox">
+            <input type="color">
+            <input type="email">
+            <input type="url">
+            <input type="file">
+            <input type="image">
+            <input type="number">
+            <input type="password">
+            <input type="radio">
+            <input type="range">
+            <input type="reset">
+            <input type="submit">
+            <input type="search">
+            <input type="tel">
+            <input type="text">
+            <input type="time">        
+            <input type="date">
+            <input type="datetime-local">
+            <input type="month">
+            <input type="week">
+    -->
+    <!-- input attributes:
+        
+            -value: the intial value of an input field.
+         
+            -readonly: the input field is read-only, can be tabbed, highlight it, copy the text from it, will be sent when submitting.
+          
+            -disabled: the field is disabled, unusable, ub-clickable, will not be sent when submitting.
+         
+            -size: sets the visible length of an input field, default=20, works with [text, search, tel, url, email, password].
+       
+            -maxlength: set teh max number of chars allowed, no feed-back so need JS-code for alerts.
+    
+            -min & max: min and max values for an input field, works with [number, range, date, datetime-local, month, time, week].
+
+            -multiple: allow more than one value, works with [email, file]. 
+ 
+            -pattern: sets a regular expression that the input field is checked aganist, works with[text, date, search, url, tel, email, password].
+
+    -->
+
+    <input type="button" name="" id="" value="send1">
+    <button>send2</button> <!-- we will know the small difference in the future -->
+
+    <input type="color" value="#E9A319" name="" id=""> <!-- colorhunt for all color pallates-->
+
+    <input type="image" src="./Images/img1.png" width="250" height="200" name="" id="" draggable="false">
+    <img src="./Images/img4.jpg" alt="img4.jpg" width="250" height="200" draggable="false">
+    <!-- the small diference will appear when linking, will know this later in the future -->
+    <br>
+    <hr>
+
+    <input type="reset" name="" id=""> <!-- a build-in button with minimum js code required -->
+    <input type="button" value="Reset1" name="" id=""> <!-- this is just a design element -->
+    <button>Reset2</button> <!-- this is just a design element -->
+
+    <br>
+    <hr>
+    <input type="submit" name="" id=""> <!-- build-in button -->
+    <input type="button" value="Submit1" name="" id=""> <!-- design element -->
+    <button>Submit2</button> <!-- design element -->
+
+    <br>
+    <hr>
+    <input type="hidden" type="button" value="Hidden Button" name="" id="">
+    <span>hidden button is created here</span>
+
+    <br>
+    <hr>
+    <input type="number" min="-30" max="30" step="3" name="" id="">
+    <!-- if exceded number is entered it will cause an ERROR -->
+    <!-- check CSS: for input:in-range    and     input:out-of-range attributes-->
+
+    <br>
+    <hr>
+    <input type="text" size="50" name="" id="" required> <!-- "size" is the  number of letters -->
+    <!-- check CSS for input:required -->
+
+    <br>
+    <hr>
+    <input type="password" maxlength="10" minlength="3" name="" id=""><!-- accepts password between 3-10 only -->
+
+    <br>
+    <hr>
+    <input type="file" name="" id="" multiple><!-- for a single file upload -->
+
+
+    <br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam nesciunt totam fugit sapiente molestiae
+        voluptatibus laudantium iste commodi consequuntur? Reiciendis dolor sed perspiciatis odit et molestiae maiores
+        exercitationem quasi.</p>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, alias error! Incidunt quibusdam quaerat
+        dolor voluptatibus recusandae, totam officia error optio enim voluptatum aspernatur ipsam nemo? Vel dolorem
+        harum eligendi?</span>
+
+    <br>
+    <hr>
+
+</body>
+
+</html>
