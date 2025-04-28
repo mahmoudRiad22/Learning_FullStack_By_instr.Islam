@@ -1,13 +1,13 @@
 <html>
 
 <head>
-    <title>recape of lec 14</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./CSS/recape.css">
+        <title>recape of lec 14</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./CSS/recape.css">
 </head>
 
 <body>
-    <!-- new input types:
+        <!-- new input types:
             "button": attribute "value".
             "color": attribute "value".
             "image": attribute "src" "width" "height"
@@ -15,57 +15,93 @@
             "submit": none
             "hidden": must be first type.
             "number": attributes "min", "max", "step".
-    -->
+        -->
 
-    <!-- general attributes for input:
+        <!-- general attributes for input:
             - "name"
             - "id"
             - "required"
             - "optional": by default.
-            - "auto"
+            - "autofocus":when a page is loaded it automatically focus on that input type.
 
-     -->
+        -->
 
-    <!-- attributes for input type="text":
+        <!-- attributes for input type="text":
             - "readonly": makes the element non-changable but can be focused.
             - "disabled": makes the element non-changable but can NOT be focused.
-     -->
+        -->
 
-    <!-- attributes for input type="password":
+        <!-- attributes for input filed:
             - "maxlength": to limit the max length of a password.
             - "minlength": the least amount of letters allowed for a password.
-     -->
+        -->
 
-    <!-- attributes for input type="file":
+        <!-- attributes for input type="file":
             - "multiple": allow muliple files to be uploaded.
-     -->
+        -->
+
+        <!-- form attributes:
+                -autocompelete: "on", "off", allow autocompelete to appear.
+                -action: add an action when the form is subbmitted, if omitted the action is set to current page.
+                -novalidate: the input that is entered will not be checked aganist and will be taken as it is.[not good idea]
+                -method [post, get]: when submitting its always "POST".
+        -->
+
+        <!-- upload a video: for best practices
+                <video height="500" width="auto" controls>
+                        <source src="./Videos/mov.mp4" type="video/mp4" />
+                        <source src="./Videos/mov.mp4" type="video/ogg" />
+                </video>
+         -->
+
+        <!-- upload an audio: best practices:
+                <audio controls>
+                        <source src="./Audios/HOPE.mp3" type="audio/mp3" />
+                        <source src="./Audios/HOPE.mp3" type="audio/ogg" />
+                </audio>
+         -->
+        <!-- //////////////////////////////////////// -->
+        <!-- //////////////////////////////////////// -->
+                        <!-- html5shiv -->
+        <!-- //////////////////////////////////////// -->
+        <!-- //////////////////////////////////////// -->
 
 
-    <!-- total = 22 input types:
-            <input type="hidden">
-            <input type="button">
-            <input type="checkbox">
-            <input type="color">
-            <input type="email">
-            <input type="url">
-            <input type="file">
-            <input type="image">
-            <input type="number">
-            <input type="password">
-            <input type="radio">
-            <input type="range">
-            <input type="reset">
-            <input type="submit">
-            <input type="search">
-            <input type="tel">
-            <input type="text">
-            <input type="time">        
-            <input type="date">
-            <input type="datetime-local">
-            <input type="month">
-            <input type="week">
-    -->
-    <!-- input attributes:
+        <!-- New CSS attributes:
+                input:out-of-range
+                input:in-range
+                input:required
+                input:optional
+                p::selection
+                span::selection 
+        -->
+
+        <!-- total = 22 input types + "input list":
+            <input type="hidden">: when used as 1st attr it makes the element removed.[Done]
+            <input type="button">: creates an input button with custom function using scripts.[Done]
+            <input type="checkbox">: allow user to choose ONE or MORE from a list.[Done]
+            <input type="color">allow user to enter a color.[Done]
+            <input type="email">: allow user to enter an email format.[Done]
+            <input type="url">: allow user to enter a url, will be checked aganist.[Done]
+            <input type="file">: allow user to upload a file can be multiple files using "multiple attr".[Done]
+            <input type="image">: allow to view an image.[Done]
+            <input type="number">: allow user to enter a numeric value "No other values allowd".[Done]
+            <input type="password">:allow user to enter a password and make it dotted and not visible.[Done]
+            <input type="radio">:allow user to choose ONE of multiple options "shold have same name attr".[Done]
+            <input type="range">: allow user to enter a range value using a slider.[Done]
+            <input type="reset">: allow to clear all input field.[Done]
+            <input type="submit">: allow teh input data to be submitted to the server, default POST emthod.[Done]
+            <input type="search">: allow for creating a search input field.[Done]
+            <input type="tel">: allow the user to enter a telephone number.[Done]
+            <input type="text">: allow user to enter a text.[Done]
+            <input type="time">: allow the user to enter a time, no tome zone.[Done]
+            <input type="date">: allow a user to enter a date of mm/dd/yy.[Done]
+            <input type="datetime-local">: allow user to enter date and time, with no time zone.[Done]
+            <input type="month">: allow user to enter a month and a year.[Done]
+            <input type="week">: allow user to enter a week adnd a year.[Done]
+            <input list="somelist">: allow user to choose an option form a "datalist" [behave similar to select].[Done]
+         -->
+        <!-- input attributes:
         
             -value: the intial value of an input field.
          
@@ -82,66 +118,144 @@
             -multiple: allow more than one value, works with [email, file]. 
  
             -pattern: sets a regular expression that the input field is checked aganist, works with[text, date, search, url, tel, email, password].
+        
+            -palceholder: displays a short hint for the input field before the users enters a value.
+            
+            -required: makes the input field required and cant submit without it.
 
-    -->
+            -step: specify the legal values alloed for a range or a number [default: setp=1].
 
-    <input type="button" name="" id="" value="send1">
-    <button>send2</button> <!-- we will know the small difference in the future -->
+            -autofocus: when the page is loaded it automatically select the specified input field.
 
-    <input type="color" value="#E9A319" name="" id=""> <!-- colorhunt for all color pallates-->
+            -list: used to refer to a datalist that is pre-defined for the input field.
 
-    <input type="image" src="./Images/img1.png" width="250" height="200" name="" id="" draggable="false">
-    <img src="./Images/img4.jpg" alt="img4.jpg" width="250" height="200" draggable="false">
-    <!-- the small diference will appear when linking, will know this later in the future -->
-    <br>
-    <hr>
+        -->
 
-    <input type="reset" name="" id=""> <!-- a build-in button with minimum js code required -->
-    <input type="button" value="Reset1" name="" id=""> <!-- this is just a design element -->
-    <button>Reset2</button> <!-- this is just a design element -->
+        <input type="button" name="" id="" value="send1">
+        <button>send2</button> <!-- we will know the small difference in the future -->
 
-    <br>
-    <hr>
-    <input type="submit" name="" id=""> <!-- build-in button -->
-    <input type="button" value="Submit1" name="" id=""> <!-- design element -->
-    <button>Submit2</button> <!-- design element -->
+        <input type="color" value="#E9A319" name="" id=""> <!-- colorhunt for all color pallates-->
 
-    <br>
-    <hr>
-    <input type="hidden" type="button" value="Hidden Button" name="" id="">
-    <span>hidden button is created here</span>
+        <input type="image" src="./Images/img1.png" width="250" height="200" name="" id="" draggable="false">
+        <img src="./Images/img4.jpg" alt="img4.jpg" width="250" height="200" draggable="false">
+        <!-- the small diference will appear when linking, will know this later in the future -->
+        <br>
+        <hr>
 
-    <br>
-    <hr>
-    <input type="number" min="-30" max="30" step="3" name="" id="">
-    <!-- if exceded number is entered it will cause an ERROR -->
-    <!-- check CSS: for input:in-range    and     input:out-of-range attributes-->
+        <input type="reset" name="" id=""> <!-- a build-in button with minimum js code required -->
+        <input type="button" value="Reset1" name="" id=""> <!-- this is just a design element -->
+        <button>Reset2</button> <!-- this is just a design element -->
 
-    <br>
-    <hr>
-    <input type="text" size="50" name="" id="" required> <!-- "size" is the  number of letters -->
-    <!-- check CSS for input:required -->
+        <br>
+        <hr>
+        <input type="submit" name="" id=""> <!-- build-in button -->
+        <input type="button" value="Submit1" name="" id=""> <!-- design element -->
+        <button>Submit2</button> <!-- design element -->
 
-    <br>
-    <hr>
-    <input type="password" maxlength="10" minlength="3" name="" id=""><!-- accepts password between 3-10 only -->
+        <br>
+        <hr>
+        <input type="hidden" type="button" value="Hidden Button" name="" id="">
+        <span>hidden button is created here</span>
 
-    <br>
-    <hr>
-    <input type="file" name="" id="" multiple><!-- for a single file upload -->
+        <br>
+        <hr>
+        <input type="number" min="-30" max="30" step="3" name="" id="">
+        <!-- if exceded number is entered it will cause an ERROR -->
+        <!-- check CSS: for input:in-range    and     input:out-of-range attributes-->
+
+        <br>
+        <hr>
+        <input type="text" size="50" name="" id="" required> <!-- "size" is the  number of letters -->
+        <!-- check CSS for input:required -->
+
+        <br>
+        <hr>
+        <input type="password" maxlength="10" minlength="3" name="" id=""><!-- accepts password between 3-10 only -->
+
+        <br>
+        <hr>
+        <input type="file" name="" id="" multiple><!-- for a single file upload -->
 
 
-    <br>
-    <hr>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam nesciunt totam fugit sapiente molestiae
-        voluptatibus laudantium iste commodi consequuntur? Reiciendis dolor sed perspiciatis odit et molestiae maiores
-        exercitationem quasi.</p>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, alias error! Incidunt quibusdam quaerat
-        dolor voluptatibus recusandae, totam officia error optio enim voluptatum aspernatur ipsam nemo? Vel dolorem
-        harum eligendi?</span>
+        <br>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nam nesciunt totam fugit sapiente molestiae
+                voluptatibus laudantium iste commodi consequuntur? Reiciendis dolor sed perspiciatis odit et molestiae
+                maiores
+                exercitationem quasi.</p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, alias error! Incidunt quibusdam
+                quaerat
+                dolor voluptatibus recusandae, totam officia error optio enim voluptatum aspernatur ipsam nemo? Vel
+                dolorem
+                harum eligendi?</span>
 
-    <br>
-    <hr>
+        <br>
+        <hr>
+
+        <form action="" autocomplete="on">
+                <h2 class="formtitle">this is a new form</h2>
+                <br><br>
+                <label for="username">username: </label>
+                <input type="text" name="username" id="username" required><br><br>
+
+                <label for="email">email: </label>
+                <input type="email" name="email" id="email" required><br><br>
+
+                <input type="submit">
+        </form>
+        <br>
+        <hr>
+
+        <form>
+                <input list="browsers">
+                <datalist id="browsers">
+                        <option value="Edge">
+                        <option value="Firefox">
+                        <option value="Chrome">
+                        <option value="Opera">
+                        <option value="Safari">
+                </datalist>
+        </form>
+        <br>
+        <hr><br>
+        <form action="">
+                <input list="randomlist">
+                <datalist id="randomlist">
+                        <option value="apple"></option>
+                        <option value="orange"></option>
+                        <option value="watermelon"></option>
+                        <option value="kewi"></option>
+                        <option value="banana"></option>
+                </datalist>
+
+                <select name="alist" id="alist" autofocus>
+                        <option value="alist" hidden>a list of values</option>
+                        <option value="value1">value1</option>
+                        <option value="value2">value2</option>
+                        <option value="value3">value3</option>
+                </select>
+                <hr><br>
+
+                <label for="uploadvideo"> uploading a video: </label><br>
+                <video height="500" width="auto" controls>
+                        <source src="./Videos/mov.mp4" type="video/mp4" />
+                        <source src="./Videos/mov.mp4" type="video/ogg" />
+                </video>
+                <hr><br>
+
+                <label for="">uploading an audio:</label><br>
+                <audio controls>
+                        <source src="./Audios/HOPE.mp3" type="audio/mp3" />
+                        <source src="./Audios/HOPE.mp3" type="audio/ogg" />
+                </audio>
+                <hr><br>
+
+                <input type="tel" name="" id="">
+
+        </form>
+
+
+
 
 </body>
 
