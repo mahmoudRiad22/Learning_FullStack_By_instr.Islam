@@ -776,7 +776,26 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////// Summary of lec 15  "HTML5" ///////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+        <!--
+            1- vendor prefixs.
 
+            2- box-shadow [h    v   blur    spread  color   inset/outset]
+
+            3- text-shadow.[h   v   blur    color]
+
+            4- border-radius multiple values:
+                    [all corners]
+                    [main diagonal, secoundry diagonal] 
+                    [1st corner, 2nd corner, 3rd corner, auto-from-diagonal] 
+
+            5- color gradient [linear-gradient, radial-gradient]:
+
+                    background: -webkit-radial-gradient(direction,shape,1st color,2nd color,);
+                    background: -webkit-radial-gradient(50% 50%,circle,red,blue,red,blue,red,blue,black);
+
+                    background: -webkit-linear-gradient(starting-direction, 1st color, 2nd color,...);
+                    background: -webkit-linear-gradient(top left, green, blue);
+         -->
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////// Summary of lec 16  "HTML5" ///////////////////////////////// -->

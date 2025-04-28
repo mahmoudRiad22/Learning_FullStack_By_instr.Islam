@@ -81,9 +81,37 @@ h2 {
     blue,
     black
   );
-  /* background: -webkit-radial-gradient( 50% 85% ,closest-corner, red, blue, red, blue,red,blue,black); */
-  /* background: -webkit-radial-gradient( 0% 0% ,farthest-corner, red, blue, red, blue,red,blue,black); */
-  /* background: -webkit-radial-gradient(direction,   shape,  1st color, 2nd color,...); */
+  /* background: -webkit-radial-gradient(
+    50% 85%,
+    closest-corner,
+    red,
+    blue,
+    red,
+    blue,
+    red,
+    blue,
+    black
+  ); */
+
+  /* background: -webkit-radial-gradient(
+    0% 0%,
+    farthest-corner,
+    red,
+    blue,
+    red,
+    blue,
+    red,
+    blue,
+    black
+  ); */
+
+  /* background: -webkit-radial-gradient(
+    direction,
+    shape,
+    1st color,
+    2nd color,
+    ...
+  ); */
 }
 
 /* //////////////////////////////////////////////////////////// */
