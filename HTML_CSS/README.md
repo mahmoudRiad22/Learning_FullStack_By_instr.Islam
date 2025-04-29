@@ -776,7 +776,7 @@ also this is a redo type situation as I stopped the course before and today will
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
-    <!-- ///////////////////// Summary of lec 15  "CSS3" ///////////////////////////////// -->
+    <!-- ///////////////////// Summary of lec 15  "CSS3" ////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
         <!--
             1- vendor prefixs.
@@ -809,7 +809,7 @@ also this is a redo type situation as I stopped the course before and today will
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
-    <!-- ///////////////////// Summary of lec 16  "Animation" ///////////////////////////////// -->
+    <!-- ///////////////////// Summary of lec 16  "Animation" ///////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
     Aniamtion Summary:
@@ -867,10 +867,53 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
 
+[Lec 17 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec17_CSS_transform/index.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////// Summary of lec 17  "Transform" ///////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+            /* ToDo: search
+                prespective-origin
+                transform-origin
+            */
+
+            /* transform in 3D:
+                to transform from 2D to 3D  you need to do 2 things: 
+                1- add prespective to the body.
+                2- add a transform-style: preserved-3d to the parent div.
+            */
+
+
+            /*  what will we do:
+                1-translate: moves the element from its current position based on the (x or width%,y or height%).
+                    transtion: adds a timer for any changes that happens depending on the selector its used with.
+
+                2-rotate: rotate the element around specified axis. rotateX, rotateY, rotateZ.
+
+                3-skew: stretches the element based on the given axis.
+
+                4-scale: incrase the scale of the element, mostly used during hover and other user actions.
+
+                5-matrix(scaleX, skewY, skewX, scaleY, translateX, translateY): 
+
+                7- practical task on lec18.
+            */
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+
+[Lec 18 task site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec18_CSS3_transform_task/index.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////// Summary of lec 18  "Transform task" /////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
 
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
-

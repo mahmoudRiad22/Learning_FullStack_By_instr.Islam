@@ -28,29 +28,144 @@
 
       5-matrix(scaleX, skewY, skewX, scaleY, translateX, translateY): 
 
-      7- practical task.
+      7- practical task on lec18.
 */
 
+body{
+  perspective: 700px;
+}
+.parent{
+  transform-style: preserve-3d;
+}
 .div1 {
   width: 250px;
-  height: 200px;
-  background-color: black;
-  margin: 100px auto;
+  height: 11vh;
+  background-color: rgb(98, 255, 0);
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
 
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
 
+}
+.div2 {
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(252, 3, 3);
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 30px;
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
+}.div3 {
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(255, 208, 0);
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
+}.div4 {
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(0, 251, 255);
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 30px;
+
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
+}
+.div5 {
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(132, 0, 255);
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+  
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
+}
+.div6 {
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(255, 0, 238);
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+  
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
+}
+.div7 {
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(0, 4, 255);
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+  
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
+}
+.div8 {
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(255, 0, 119);
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+  
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
+}
+.div9{
+  width: 250px;
+  height: 11vh;
+  background-color: rgb(255, 136, 0);
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+  
   transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
 
 }
 
 .div1:hover {
-  /* transform: scale(1.5,1.5); */
-
-  /* transform: rotateY(180deg); */
-
-  /* transform: skewX(); */
-
+  transform: scaleX(1.5);
 
 }
+.div2:hover {
+  transform: scaleY(1.5);
+
+}
+.div3:hover {
+
+  transform: skewX(30deg);
+}
+.div4:hover {
+
+  transform: skewY(30deg);
+}
+.div5:hover {
+  transform: rotateX(450deg);
+}
+.div6:hover {
+  transform: rotateY(450deg);
+}
+.div7:hover {
+  transform: translateX(50px);
+}
+.div8:hover {
+  transform: translateY(50px);
+}
+.div9:hover {
+  transform: translateZ(50px);
+}
+
 
 
 
