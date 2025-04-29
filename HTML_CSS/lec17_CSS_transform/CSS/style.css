@@ -1,16 +1,57 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+/* ToDo: search
+    prespective-origin
+    transform-origin
+ */
+
+/* transform in 3D:
+    to transform from 2D to 3D  you need to do 2 things: 
+      1- add prespective to the body.
+      2- add a transform-style: preserved-3d to the parent div.
+ */
+
+
+/*  what will we do:
+      1-translate: moves the element from its current position based on the (x or width%,y or height%).
+          transtion: adds a timer for any changes that happens depending on the selector its used with.
+
+      2-rotate: rotate the element around specified axis. rotateX, rotateY, rotateZ.
+
+      3-skew: stretches the element based on the given axis.
+
+      4-scale: incrase the scale of the element, mostly used during hover and other user actions.
+
+      5-matrix(scaleX, skewY, skewX, scaleY, translateX, translateY): 
+
+      7- practical task.
+*/
 
 .div1 {
-    width: 250px;
-    height: 200px;
-    background-color: black;
-    margin-top: 5px;
-    margin-left: 5px;
+  width: 250px;
+  height: 200px;
+  background-color: black;
+  margin: 100px auto;
 
-    transform: translate();
+
+  transition: 1s; /* means any action or event applied on div1 will happen in 2s*/
+
 }
+
+.div1:hover {
+  /* transform: scale(1.5,1.5); */
+
+  /* transform: rotateY(180deg); */
+
+  /* transform: skewX(); */
+
+
+}
+
+
+
 
