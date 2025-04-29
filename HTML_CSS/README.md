@@ -772,9 +772,11 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
+[Lec 15 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec15_CSS3_1/index.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
-    <!-- ///////////////////// Summary of lec 15  "HTML5" ///////////////////////////////// -->
+    <!-- ///////////////////// Summary of lec 15  "CSS3" ///////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
         <!--
             1- vendor prefixs.
@@ -796,7 +798,79 @@ also this is a redo type situation as I stopped the course before and today will
                     background: -webkit-linear-gradient(starting-direction, 1st color, 2nd color,...);
                     background: -webkit-linear-gradient(top left, green, blue);
          -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+
+[Lec 16 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec16_CSS3_animation/index.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+[Lec 16 task website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec16_CSS3_animation/task1.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
-    <!-- ///////////////////// Summary of lec 16  "HTML5" ///////////////////////////////// -->
+    <!-- ///////////////////// Summary of lec 16  "Animation" ///////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+    Aniamtion Summary:
+            @keyframes identifier_name: what happens during the animation.
+
+            animation properties:
+            {
+                animation-name: use it to bend the animation to the element.
+
+                animation-duration: total time of the animation in sec.
+
+                animation-timing-func: the speed curve of the animation   
+                        [   ease: slow start, then fast, then slow end.
+                            linear: same speed fro start to end.
+                            ease-in: slow start then normal speed.
+                            ease-out: normal spped then slow end.
+                            ease-in-out: slow start then normal speed then slow end.
+                            cubic-bezier(n,n,n,n):
+                        ]
+
+                animation-delay: time before the animation starts in sec.
+
+                animation-iteration-count: the number of repetetion [a number, infinte].
+
+                animation-direction: [forward,    reverse,    alternate,  alternate-reverse]
+
+                animation-fill-mode: allow the element to retain the style of the animation before or after:
+                            This property doesn't affect how the animation plays - just what happens before and after!.
+                            [
+                                none: Like an actor who only performs during the show, then goes home.
+                                forward: Actor freezes in their final pose when the show ends.
+                                backword: Actor starts in their opening pose before the show begins.
+                                both: Actor is always in character - either starting pose (before) or final pose (after)
+                            ]
+                            when to use: 
+                            [
+                                Use "forwards" when you want an element to stay changed after animating.
+                                Use "backwards" when you want the animation style applied immediately (before delay).
+                                Use "both" for seamless transitions with delays.
+                                Use "none" when you want complete reversion.
+                            ]
+                animation-play-state: "running" or "paused"
+                            [
+                                case of use:
+                                    -pause on hover.
+                                    -toggle on click() using js-code.
+                                    -pause animation when tab is inactive.
+                                    -animate elements when they come into view.
+                                    
+                            ]
+            }
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
