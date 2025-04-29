@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@keyframes anim1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100vw - 200px);
+  }
+}
+
+@keyframes anim2 {
+  from {
+    right: 0;
+  }
+  to {
+    right: calc(100vw - 200px);
+  }
+}
+
+/* trying to make a whole animation cycle bu failed :(
+@keyframes resetcycle {
+  to{visibility: visible;}
+}
+.container{
+  animation-name: resetcycle;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+} */
+
+.div1 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: anim1 1s ease-in-out 0s;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: forwards;
+}
+
+.div2 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: rgb(245, 2, 115);
+  position: absolute;
+  right: 0;
+  top: 12.5vh;
+  animation: anim2 1s ease-in-out 1s;
+  animation-fill-mode: forwards;
+  /* animation-iteration-count: infinite; */
+}
+
+.div3 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: rgb(161, 2, 247);
+  position: absolute;
+  left: 0;
+  top: 25vh;
+  animation: anim1 1s ease-in-out 2s;
+  animation-fill-mode: forwards;
+  /* animation-iteration-count: infinite; */
+}
+
+.div4 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: rgb(0, 132, 255);
+  position: absolute;
+  right: 0;
+  top: 37.5vh;
+
+  animation: anim2 1s ease-in-out 3s;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: forwards;
+}
+
+.div5 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: rgb(4, 245, 245);
+  position: absolute;
+  left: 0;
+  top: 50vh;
+
+  animation: anim1 1s ease-in-out 4s;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: forwards;
+}
+
+.div6 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: rgb(68, 242, 5);
+  position: absolute;
+  right: 0;
+  top: 62.5vh;
+  animation: anim2 1s ease-in-out 5s;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: forwards;
+}
+.div7 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: rgb(252, 181, 0);
+  position: absolute;
+  left: 0;
+  top: 75vh;
+
+  animation: anim1 1s ease-in-out 6s;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: forwards;
+}
+
+.div8 {
+  width: 200px;
+  height: 12.5vh;
+  background-color: rgb(254, 0, 0);
+  position: absolute;
+  right: 0;
+  top: 87.5vh;
+  animation: anim2 1s ease-in-out 7s;
+  /* animation-iteration-count: infinite; */
+  animation-fill-mode: forwards;
+}
