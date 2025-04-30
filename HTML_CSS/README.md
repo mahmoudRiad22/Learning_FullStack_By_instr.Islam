@@ -912,7 +912,15 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////// Summary of lec 18  "Transform task" /////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
+    
+        /* lec 18 card task summary: 
+            1- you need to make the card section 3d to make the card have a back and a front.
+                you can achive that using the prespective on body, transform-style on the section.
+            2- the front card must have a higher z-index to appear on the top.
+            3- you need the backcard to be flibbed so when turned it shows the backcard face properly.
 
+            4- you need to hide the back of the front card so it does not interfere sice it has a higher z-index.
+        */
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->

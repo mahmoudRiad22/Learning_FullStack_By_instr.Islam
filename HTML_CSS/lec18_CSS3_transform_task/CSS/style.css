@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  perspective: 800px;
+  padding: 50px;
+}
+
+.cardsec {
+  width: 280px;
+  height: 350px;
+  background-color: black;
+  margin: 0 auto;
+
+  position: relative;
+
+  transition: 2s;
+  transform-style: preserve-3d;
+}
+
+.frontCard {
+  width: 280px;
+  height: 350px;
+  background-color: gray;
+
+  z-index: 1;
+  position: absolute;
+
+  transition: 1s;
+  backface-visibility: hidden;
+
+  text-align: center;
+}
+.cardimg {
+  width: 280px;
+  height: 350px;
+}
+
+.backCard {
+  width: 280px;
+  height: 350px;
+  background-color: violet;
+
+  transform: rotateY(180deg);
+
+  position: absolute;
+}
+
+.backCard .backCardTitle{
+    text-align: center;
+}
+.backCard {
+    text-decoration-style: solid;
+    text-transform: capitalize;
+}
+.backCard p{
+    padding-left: 5px;
+}
+.backCard .details{
+    margin-top: 10px;
+}
+.cardsec:hover {
+  transform: rotateY(180deg);
+}
+
+
+/* lec 18 card task summary: 
+    1- you need to make the card section 3d to make the card have a back and a front.
+        you can achive that using the prespective on body, transform-style on the section.
+    2- the front card must have a higher z-index to appear on the top.
+    3- you need the backcard to be flibbed so when turned it shows the backcard face properly.
+
+    4- you need to hide the back of the front card so it does not interfere sice it has a higher z-index.
+ */
