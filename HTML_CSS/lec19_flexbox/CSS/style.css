@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  perspective: 700px;
+}
+
+/* ============= Ovrview of Lec 19 ===============
+    flex-container:
+        - display: flex; [Activate the flex property].
+
+        1-flex-direction: row   column;
+        2-flex-wrap: nowrap"default"     wrap    wrap-reverse;
+        -flex-flow: flex-direction  flex-wrap;
+    ====================================================
+    ====================================================
+    flex-items:
+        1-flex-grow: numaric_value;
+        2-flex-shrink: numeric_value;
+        3-flex-basis:    initial_width  ===if==>  flex-direction: row;
+                        intial_height  ===if==>    flex-direction: column;
+        
+        -flex: grow shrink  basis;
+*/
+
+/* ************** CODING-Part ****************** */
+
+/* ====================================================================
+   ==================================================================== */
+/* #region flex-flow section */
+
+.flex-flow-title {
+    text-align: center;
+    background-color: chocolate;
+    padding: 6px;
+  }
+  
+  .flex-flow-sec .container {
+    /* width: 800px; */
+    height: 500px;
+    background-color: gray;
+  
+    display: flex;
+  
+    flex-direction: row; /*default state*/
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+  
+    /* wrap = لف */
+    flex-wrap: nowrap; /*default state*/
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+  
+    /* discribe the shape flow of the container */
+    flex-flow: row wrap;
+    /* shorthand for both the direction and wrap*/
+  }
+  
+  .flex-flow-sec .div1 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rebeccapurple;
+  }
+  
+  .flex-flow-sec .div2 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+  
+    background-color: rgb(51, 153, 151);
+  }
+  
+  .flex-flow-sec .div3 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(153, 151, 51);
+  }
+  
+  .flex-flow-sec .div4 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(255, 158, 3);
+  }
+  .flex-flow-sec .div5 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(153, 51, 82);
+  }
+  .flex-flow-sec .div6 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(153, 51, 136);
+  }
+  .flex-flow-sec .div7 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(102, 51, 153);
+  }
+  .flex-flow-sec .div8 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(51, 73, 153);
+  }
+  .flex-flow-sec .div9 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(51, 153, 129);
+  }
+  .flex-flow-sec .div10 {
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding-left: 8px;
+    /* height: calc(100vh / 3); */
+    background-color: rgb(51, 153, 56);
+  }
+  
+  /* #endregion */
+/* ==================================================================
+    ================================================================== */
+  
+/* ====================================================================
+     ================================================================== */
+/* #region flex-grow-shrink-basis section  */
+
+.flex-grow-shrink-title{
+    text-align: center;
+    background-color: chocolate;
+    padding: 6px;
+
+    text-transform: capitalize;
+}
+
+.flex-grow-shrink .container{
+    height: 500px;
+    background-color: darkcyan;
+
+    display: flex; 
+    /* the flow is [row and nowrap] as default */
+
+
+}
+
+.flex-grow-shrink .div1{
+    width: 300px;
+    height: 150px;
+    /* margin-left: 10px; */
+    border: 1.5px solid black;
+    background-color: wheat;
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+
+}
+.flex-grow-shrink .div2{
+    width: 300px;
+    height: 150px;
+    /* margin-left: 10px; */
+    border: 1.5px solid black;
+    background-color: rgb(255, 166, 0);
+
+    /* flex-grow: 4; */
+    /* flex-shrink: 20; */
+
+}
+.flex-grow-shrink .div3{
+    width: 300px;
+    height: 150px;
+    /* margin-left: 10px; */
+    border: 1.5px solid black;
+    background-color: rgb(245, 71, 8);
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+
+/* #endregion */
+/* ====================================================================
+   ==================================================================== */
+
+.flex_justify_content_and_align_items > .title{
+    text-align: center;
+    background-color: chocolate;
+    padding: 6px;
+    text-transform: capitalize;
+}
+
+.flex_justify_content_and_align_items .container{
+    height: 500px;
+    background-color: darkcyan;
+
+    display: flex; 
+    /* the flow is [row and nowrap] as default */
+
+}
+
+.flex_justify_content_and_align_items  .div1{
+    width: 300px;
+    height: 150px;
+
+    border: 1.5px solid black;
+    background-color: rgb(3, 156, 167);
+
+}
+
+.flex_justify_content_and_align_items  .div2{
+    width: 300px;
+    height: 150px;
+
+    border: 1.5px solid black;
+    background-color: rgb(19, 194, 0);
+
+}
+
+.flex_justify_content_and_align_items  .div3{
+    width: 300px;
+    height: 150px;
+
+    border: 1.5px solid black;
+    background-color: rgb(1, 67, 191);
+}
+
+/* ********************************************* */
+
+/* lec 19 flexbox summary:
+
+    -- flex properties for the flex-container:
+
+        1-  "display: flex;" activate the flex properity.
+
+        2- "flex-direction": row[default], row-reverse, column, colum-reverse.
+
+        3-flex-wrap: nowrap, wrap, wrap-reverse.
+
+        4-flex-flow: a shorthand properity for both the flex-direction and flex-wrap.
+
+        5-justify-content:
+            used to align the flex-items on "main axis" when they don't use the whole space.
+            [center, felx-start, flex-end, space-around, space-between, space-evenly].
+
+        6-align-items:
+            used to align flex-items on "cross axis" when they don't use all the space.
+            [center, flex-start, flex-end, stretch = normal, baseline, normal= stretch = default].
+ 
+    ====================================================
+    ====================================================
+
+    --flex properties for the flex-items:
+
+        1-flex-grow:
+            allow the all flex-items to fill the full width of the screen.
+            the grow of the flex-items is based on the number given.
+            (the numbers are the ratio of extra-space is distributed).
+        
+        2-flex-shrink:
+            if screen with is reduced it shrinks the items acccording to its ratio calc.
+
+        3- flex-basis:
+            it acts as a width_properity if the flex-direction: row;
+            it acts as a height_properity if the flex-direction: column;
+
+        -- flex:
+            a shorthand for all 3 properties
+                flex: flex-grow     flex-shrink     flex-basis;
+        
+*/
+ 
+  /* How "Flex-Grow actually works":
+      1- it adds up all the numric values given for all the flex-items in the flex-container.
+          1+4+1 = 6
+      2- it finds the un-used space of the parent:  container width: auto [1280-(300*3) = 380].
+      3- it divides the 2 number: 380 / 6 = 63.33 (the value of one flex-grow).
+      4- it multiply the one flex-grow by each number for each flex-item.
+  
+          div1: 63.33 * 1 = 63.33px [the new width of div1 = origin-width + 63.33px = 363.33].
+          div2: 63.33 * 4 = 253.33px [the new width of div2 = origin-width +  253.33px = 553.33].
+          div3: 63.33 * 1 = 63.33px [the new width of div3 = origin-width +  63.33px = 363.33].
+   */
+  
+  /* How "Flex-Shrink" actually works:
+      1- it calculates the deficit of the screen:
+          deficit = (total_flex-items width) - (current_flex-container width);
+  
+      2- it calculate the weighted shrink factors for each item and the total factor:
+          felx-item_weight_factor = shrink_value * original_width;
+          total_factor = item1_factor + item2_factor + ...
+  
+      3- it calc the shrinkage value for each item:
+          shrinkage_value = [(weight / total_factor) * deficit].
+  
+      4- it calc the new width of the items and assign it:
+          new width = original_width - shrinkage_value
+      ====================================================
+      ====================================================
+  
+      Example on the screen: [reduce the screen to width 660px]
+      1- deficit: 300 * 3 - 644.67 = 255.33px;
+      2- wieghted shrink: 
+          div1 = 1*300 = 300
+          div2 = 20*300 = 6000
+          div3 = 1*300 = 300
+          total = 300+6000+300 = 6600;
+  
+      3- shrinkage values:
+          shrinkage value = [(weight / total factor) * deficit].
+          div1 = (300 / 6600) * 255.33 = 11.6px
+          div2 = (6000/6600) * 255.33 = 232.11px
+          div3 = (300/6600) * 255.33 = 11.6px
+  
+      2- final new width:
+          div1 = 300 - 11.6 = 288.4px 
+          div2 = 300 - 232.11 = 67.89px
+          div3 = 300 - 11.6 = 288.4px 
+      ====================================================
+      ====================================================
+  
+  */
+  
+  /* How "Flex-basis" actually works:
+      - flex-basis: can represent "width" or "height" based on the flex-direction: "row" or "column".
+          flex-basis: initial_width      ========> flex-direction: row;
+          flex-basis:  initial_height      ========> flex-direction: column;
+  
+      - flex-basis has higher priority than width/height properity.
+      
+      - "Flex" shorthand:
+          flex: flex-grow  flex-shrink  flex-basis;
+   */
+  
+/* flex-container properities: "Justify-content" && "align-item":
+
+    Note:
+        if  flex-flow: row      =====>      main axis is X
+        if  flex-flow: column   =====>      main axis is Y
+    
+    justify-content ==== main axis
+
+    align-item ===== cross axis
+ */
+
+
+
