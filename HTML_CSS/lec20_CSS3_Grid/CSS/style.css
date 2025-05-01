@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* =========================================================== */
+/* ================== Summary ================================ */
+/* =========================================================== */
+
+/* grid_column_and_grid_row:
+
+////////////////// grid-container properties /////////////////
+    1- display: grid; [by definition the number of rows]
+
+    2- grid-template-columns:
+        seperate the container width into columns based on the values given.
+            grid-template-columns: 15% 15% 15% 15%;
+            grid-template-columns: repeat(6, 25%);
+            grid-template-columns: 3fr 4fr 1fr;
+            grid-template-columns: repeat(6, 1fr);
+
+    3- grid-template-rows:
+        seperate the container height into rows based on the values given.
+            grid-template-rows: 300px 200px 150px 250px;
+            grid-template-rows: repeat(5, 200px);
+            grid-template-rows: repeat(6, 1fr);
+
+    4- grid-auto-rows: 
+        controls the size of implicit rows in a CSS Grid.
+        if the grid-items "divs" are more than the grid cells,
+        then the automatically created rows for the extra items will be defined based on the
+        grid-auto-rows: minmax();
+
+        it defines the minimum height and maximum height of each impilicit_cell in the grid.
+
+    5- grid-column-gap: add gap between columns;
+
+    6- grid-row-gap: add gaps between rows;
+
+    7- grid-gap: row-gap column-gap [shorthand for both]
+        
+    8- grid-gap: 20px; [add gap equally from all sides]
+
+////////////////// grid-item properties ////////////////////
+
+    9- grid-column: start / end
+        used to expand a cell to span over specified columns numbers.
+
+    10- grid-row: start / end
+        used to expand a cell to span over speciefied rows numbers.
+ */
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+ /* elements properites:
+    1- column-count:
+        [in px] split the element to equal columns.
+
+    2- column-gap:
+        [in px] add a gap between element columns.
+
+    3- column-rule:
+        [size    style   color] create a line between columns.
+
+    4- column-width:
+        [in px] makes the width of the elements fixed value.
+        it will be capped by the actuall width of the div.
+
+    5- columns: column-width   column-count;
+
+        How Columns Actually Work
+            -- The browser prioritizes one of these values based on available space:
+                    =If the container is too narrow to fit 8 columns of 100px each, it will:
+                        Ignore column-count (8) and use only column-width (100px).
+                        Create as many 100px-wide columns as fit in the container.
+
+                    =If the container is wide enough for 8 columns of 100px (800px+):
+                        It will create up to 8 columns, but each may be wider than 100px 
+                        (since column-width is just a minimum suggestion).
+ 
+    6- column-span: [nonw, all];
+        forces the element to break out of columns and span teh full length.
+        best for: headlines, banners, seperators in multi columns text layout.
+        not for: flexbox/grid.
+
+ */
+
+/* =========================================================== */
+/* =========================================================== */
+/* =========================================================== */
+
+
+/* #region grid_column_and_grid_row */
+
+.container {
+  /* height: 300px; */
+  /* width: 1000px; */
+  background-color: lightgray;
+
+  display: grid;
+
+  /* grid-template-columns: 15% 15% 15% 15%; */
+  /* grid-template-columns: repeat(6, calc(100% / 6) ); */
+
+  /* grid-template-columns: 3fr 4fr 1fr; */
+  grid-template-columns: repeat(6, 1fr);
+
+  /* ///////////////////////////////////////////////////////// */
+
+  /* grid-template-rows: 300px 200px 150px 250px; */
+  /* grid-template-rows: repeat(5, 200px); */
+  grid-template-rows: repeat(6, 1fr);
+
+  /* ///////////////////////////////////////////////////////// */
+
+  grid-auto-rows: minmax(250px, auto); 
+
+  /* ///////////////////////////////////////////////////////// */
+
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+
+  /* grid-gap: row-gap column-gap */
+  grid-gap: 10px 50px;
+
+  grid-gap: 20px;
+
+  /* ////////////////////////////////////////////////////////// */
+}
+
+.container .div1 {
+  /* height: 80px; */
+  /* width: 200px; */
+  background-color: rgb(35, 179, 241);
+  border: 1px solid black;
+
+  margin: 5px 0px;
+  padding: 35px;
+}
+
+.special {
+  /* the column number from the container is 6 */
+  grid-column-start: 2;
+  grid-column-end: 5;
+
+  /* shorthand for both column-start and column-end */
+  /*  grid-column: start / end */
+  grid-column: 2 / 6;
+
+  /* //////////////////////////////////////////////// */
+  grid-row: 1 / 4;
+
+  /* //////////////////////////////////////////////// */
+}
+
+.div3 {
+  grid-row: 2/4;
+}
+
+.div6 {
+  grid-column: 1/3;
+}
+.div9 {
+  grid-column: 5/7;
+}
+
+.div7 {
+  grid-column: 3/5;
+  grid-row: 4/6;
+}
+
+/* #endregion */
+
+
+.section2 div {
+    /* width: 900px; */
+  /* column-count: 6; */
+  /* column-width: 90px; */
+
+
+  /* columns: column-width   column-count; */
+  columns: 100px    8;
+
+  column-gap: 80px;
+  column-rule: 14px solid blue;
+}
+.section2 h2 {
+  column-span: all;
+}
+
+.section2 .p1 {
+    column-count: 4;
+    column-gap: 80px;
+    column-rule: 5px solid blue;
+  }
+  

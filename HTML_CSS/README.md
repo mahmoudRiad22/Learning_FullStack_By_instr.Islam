@@ -922,7 +922,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
 ---
-[Lec 18 task site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec18_CSS3_transform_task/index.html)
+[Lec 18 transform_task](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec18_CSS3_transform_task/index.html)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
@@ -944,7 +944,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
 ---
-[Lec 19 task site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec19_flexbox/index.html)
+[Lec 19 flexbox site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec19_flexbox/index.html)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
@@ -1143,3 +1143,114 @@ also this is a redo type situation as I stopped the course before and today will
             /* flex-item "order":
                 makes the flex-items appear in the order given regardless of the html initial order.
             */
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+---
+[Lec 20 Grid site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec20_CSS3_Grid/index.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////// Summary of lec 20 "Grid" /////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+        /* grid_column_and_grid_row:
+
+        ////////////////// grid-container properties /////////////////
+            1- display: grid; [by definition the number of rows]
+
+            2- grid-template-columns:
+                seperate the container width into columns based on the values given.
+                    grid-template-columns: 15% 15% 15% 15%;
+                    grid-template-columns: repeat(6, 25%);
+                    grid-template-columns: 3fr 4fr 1fr;
+                    grid-template-columns: repeat(6, 1fr);
+
+            3- grid-template-rows:
+                seperate the container height into rows based on the values given.
+                    grid-template-rows: 300px 200px 150px 250px;
+                    grid-template-rows: repeat(5, 200px);
+                    grid-template-rows: repeat(6, 1fr);
+
+            4- grid-auto-rows: 
+                controls the size of implicit rows in a CSS Grid.
+                if the grid-items "divs" are more than the grid cells,
+                then the automatically created rows for the extra items will be defined based on the
+                grid-auto-rows: minmax();
+
+                it defines the minimum height and maximum height of each impilicit_cell in the grid.
+
+            5- grid-column-gap: add gap between columns;
+
+            6- grid-row-gap: add gaps between rows;
+
+            7- grid-gap: row-gap column-gap [shorthand for both]
+                
+            8- grid-gap: 20px; [add gap equally from all sides]
+
+        ////////////////// grid-item properties ////////////////////
+
+            9- grid-column: start / end
+                used to expand a cell to span over specified columns numbers.
+
+            10- grid-row: start / end
+                used to expand a cell to span over speciefied rows numbers.
+        */
+
+        /* =========================================================== */
+        /* =========================================================== */
+        /* =========================================================== */
+
+        /* elements properites:
+            1- column-count:
+                [in px] split the element to equal columns.
+
+            2- column-gap:
+                [in px] add a gap between element columns.
+
+            3- column-rule:
+                [size    style   color] create a line between columns.
+
+            4- column-width:
+                [in px] makes the width of the elements fixed value.
+                it will be capped by the actuall width of the div.
+
+            5- columns: column-width   column-count;
+
+                How Columns Actually Work
+                    -- The browser prioritizes one of these values based on available space:
+                            =If the container is too narrow to fit 8 columns of 100px each, it will:
+                                Ignore column-count (8) and use only column-width (100px).
+                                Create as many 100px-wide columns as fit in the container.
+
+                            =If the container is wide enough for 8 columns of 100px (800px+):
+                                It will create up to 8 columns, but each may be wider than 100px 
+                                (since column-width is just a minimum suggestion).
+        
+            6- column-span: [nonw, all];
+                forces the element to break out of columns and span teh full length.
+                best for: headlines, banners, seperators in multi columns text layout.
+                not for: flexbox/grid.
+
+        */
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+---
+[Lec 21 site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec21_CSS3/index.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////// Summary of lec 21 "title to be" /////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
