@@ -5,6 +5,7 @@ this repo will contain all the projects and task during my journey learning fron
 
 also this is a redo type situation as I stopped the course before and today will contiue from scratch.. lets have some fun :)
 
+---
 ##Summary of Lec 1: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec1/)
 
         <!-- ============================================================================== -->
@@ -21,6 +22,7 @@ also this is a redo type situation as I stopped the course before and today will
         <!-- =========================== LEC 1 END ======================================== -->
         <!-- ============================================================================== -->
 
+---
 ##Summary of Lec 2: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec2/)
 
     <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
@@ -58,6 +60,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ///////////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 ##Summary of Lec 3: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec3/)
 
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -126,6 +129,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 ##Summary of Lec 4: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec4/)
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -186,6 +190,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 ##Summary of Lec 5: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec5/)
 
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
@@ -259,6 +264,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////// -->
 
+---
 ##Summary of Lec 6: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec6/)
 
     <!-- /////////////////////////////////////////////////////////////////////////// -->
@@ -309,6 +315,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- /////////////////////////////////////////////////////////////////////////// -->
     <!-- /////////////////////////////////////////////////////////////////////////// -->
 
+---
 ##Summary of Lec 7: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec7/)
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -350,6 +357,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 ##Summary of Lec 8: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec8/)
 
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -399,6 +407,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 ##Summary of Lec 9: [view-index-page](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_icons/)
 
     <!-- ////////////////////////////////////////////////////////////////// -->
@@ -446,6 +455,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- //////////////////////////////////////////////////////////////////////////// -->
 
 
+---
 [original-full-website](https://islam28497.github.io/Template_1/)&emsp;&emsp;&emsp;&emsp;[the Lec9 section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_section/section_code/)&emsp;&emsp;&emsp;&emsp;[My Work for the section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec9_section/)
 
 
@@ -459,6 +469,7 @@ also this is a redo type situation as I stopped the course before and today will
 
 
 
+---
 [new-part-with-after&before-effect](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec10/)
 
     <!-- ////////////////////////////////////////////////////////////////////////// -->
@@ -518,6 +529,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////// -->
 
+---
 [my own the home-section](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec11/)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 [original-full-website](https://islam28497.github.io/Template_1/)
@@ -591,6 +603,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 [my own version of the website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec12_project/)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 [original-full-website](https://islam28497.github.io/Template_1/)
@@ -635,6 +648,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ///////////////////// Summary of lec 13  "HTML5" ///////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 [Lec 14 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec14_HTML5_pt2/index.html)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 [Recape of Lec 14 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec14_HTML5_pt2/recape.html)
@@ -772,6 +786,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
+---
 [Lec 15 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec15_CSS3_1/index.html)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
@@ -803,6 +818,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
 
+---
 [Lec 16 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec16_CSS3_animation/index.html)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 [Lec 16 task website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/Lec16_CSS3_animation/task1.html)
@@ -867,6 +883,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
 
+---
 [Lec 17 website](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec17_CSS_transform/index.html)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
@@ -904,7 +921,7 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
 
-
+---
 [Lec 18 task site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec18_CSS3_transform_task/index.html)
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 
@@ -925,3 +942,204 @@ also this is a redo type situation as I stopped the course before and today will
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
     <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+---
+[Lec 19 task site](https://mahmoudriad22.github.io/Learning_FullStack_By_instr.Islam/HTML_CSS/lec19_flexbox/index.html)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////// Summary of lec 19  "Transform task" /////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+
+            /* ============= Ovrview of Lec 19 ===============
+                flex-container:
+                    - display: flex; [Activate the flex property].
+
+                    1-flex-direction: row   column;
+
+                    2-flex-wrap: nowrap"default"     wrap    wrap-reverse;
+
+                    3-flex-flow: flex-direction  flex-wrap;
+
+                    4-justify-content: [flex-start, felx-end, center, space-around, space-between, space-evenly].
+                    
+                    5-align-items: [flex-start, flex-end, center, stretch]
+                ====================================================
+                ====================================================
+                flex-items:
+                    1-flex-grow: numaric_value;
+
+                    2-flex-shrink: numeric_value;
+
+                    3-flex-basis:    initial_width  ===if==>  flex-direction: row;
+                                    intial_height  ===if==>    flex-direction: column;
+                    
+                    4-flex: grow shrink  basis;
+
+                    5- order: numeric value;
+                    6- align-self: it overrides the align-items in the flex-container.
+                    7- align-content: search it;
+
+                    Q. when to use min-height?!
+            */
+
+
+
+            /* lec 19 flexbox summary:
+
+                -- flex properties for the flex-container:
+
+                    1-  "display: flex;" activate the flex properity.
+
+                    2- "flex-direction": row[default], row-reverse, column, colum-reverse.
+
+                    3-flex-wrap: nowrap, wrap, wrap-reverse.
+
+                    4-flex-flow: a shorthand properity for both the flex-direction and flex-wrap.
+
+                    5-justify-content:
+                        used to align the flex-items on "main axis" when they don't use the whole space.
+                        [center, felx-start, flex-end, space-around, space-between, space-evenly].
+
+                    6-align-items:
+                        used to align flex-items on "cross axis" when they don't use all the space.
+                        [center, flex-start, flex-end, stretch = normal, baseline, normal= stretch = default].
+            
+                ====================================================
+                ====================================================
+
+                --flex properties for the flex-items:
+
+                    1-flex-grow:
+                        allow the all flex-items to fill the full width of the screen.
+                        the grow of the flex-items is based on the number given.
+                        (the numbers are the ratio of extra-space is distributed).
+                    
+                    2-flex-shrink:
+                        if screen with is reduced it shrinks the items acccording to its ratio calc.
+
+                    3- flex-basis:
+                        it acts as a width_properity if the flex-direction: row;
+                        it acts as a height_properity if the flex-direction: column;
+
+                    -- flex:
+                        a shorthand for all 3 properties
+                            flex: flex-grow     flex-shrink     flex-basis;
+                    
+            */
+
+            /* How "Flex-Grow actually works":
+                1- it adds up all the numric values given for all the flex-items in the flex-container.
+                    1+4+1 = 6
+                2- it finds the un-used space of the parent:  container width: auto [1280-(300*3) = 380].
+                3- it divides the 2 number: 380 / 6 = 63.33 (the value of one flex-grow).
+                4- it multiply the one flex-grow by each number for each flex-item.
+            
+                    div1: 63.33 * 1 = 63.33px [the new width of div1 = origin-width + 63.33px = 363.33].
+                    div2: 63.33 * 4 = 253.33px [the new width of div2 = origin-width +  253.33px = 553.33].
+                    div3: 63.33 * 1 = 63.33px [the new width of div3 = origin-width +  63.33px = 363.33].
+            */
+
+            /* How "Flex-Shrink" actually works:
+                1- it calculates the deficit of the screen:
+                    deficit = (total_flex-items width) - (current_flex-container width);
+            
+                2- it calculate the weighted shrink factors for each item and the total factor:
+                    felx-item_weight_factor = shrink_value * original_width;
+                    total_factor = item1_factor + item2_factor + ...
+            
+                3- it calc the shrinkage value for each item:
+                    shrinkage_value = [(weight / total_factor) * deficit].
+            
+                4- it calc the new width of the items and assign it:
+                    new width = original_width - shrinkage_value
+                ====================================================
+                ====================================================
+            
+                Example on the screen: [reduce the screen to width 660px]
+                1- deficit: 300 * 3 - 644.67 = 255.33px;
+                2- wieghted shrink: 
+                    div1 = 1*300 = 300
+                    div2 = 20*300 = 6000
+                    div3 = 1*300 = 300
+                    total = 300+6000+300 = 6600;
+            
+                3- shrinkage values:
+                    shrinkage value = [(weight / total factor) * deficit].
+                    div1 = (300 / 6600) * 255.33 = 11.6px
+                    div2 = (6000/6600) * 255.33 = 232.11px
+                    div3 = (300/6600) * 255.33 = 11.6px
+            
+                2- final new width:
+                    div1 = 300 - 11.6 = 288.4px 
+                    div2 = 300 - 232.11 = 67.89px
+                    div3 = 300 - 11.6 = 288.4px 
+                ====================================================
+                ====================================================
+            
+            */
+
+            /* How "Flex-basis" actually works:
+                - flex-basis: can represent "width" or "height" based on the flex-direction: "row" or "column".
+                    flex-basis: initial_width      ========> flex-direction: row;
+                    flex-basis:  initial_height      ========> flex-direction: column;
+            
+                - flex-basis has higher priority than width/height properity.
+                
+                - "Flex" shorthand:
+                    flex: flex-grow  flex-shrink  flex-basis;
+            */
+
+            /* flex-container properities: "Justify-content" && "align-item":
+
+                Note:
+                    if  flex-flow: row      =====>      main axis is X
+                    if  flex-flow: column   =====>      main axis is Y
+                
+                justify-content ==== main axis
+
+                align-item ===== cross axis
+
+            Quizes: @lec 19 [1:27:15] to [1:46:00]
+
+                Q1. make the items in the middle center to the end?
+                A2.  flex-flow: row;
+                    -justify-content: flex-end;
+                    -align-items: center;
+                
+                Q2. make the iems above each other, with even spaces in between?
+                A2. flex-flow: column;
+                    justify-content: space-evenly;
+                    align-items: felx-start;
+
+                Q3. make the items above each other with no space and in the bottom middle?
+                A3  flex-flow: column;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                Q4. make the items at the biottom with spaces in between them?
+                A4. flex-flow: row;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                
+                Q5. make the items on the top right corner above each others?
+                A5. flex-flow: column;
+                    justify-content:flex-start;
+                    align-items: flex-end;
+
+                Q6. make items at the bottom, with space in between?
+                    flex-flow: row;
+                    justify-content: flex-end;
+                    align-items: space-between;
+
+                Q7. make items in the center and spaces are even?
+                    flex-flow: column;
+                    justify-content: sapce-evenly;
+                    align-items: center;
+
+            */
+
+            /* flex-item "order":
+                makes the flex-items appear in the order given regardless of the html initial order.
+            */
