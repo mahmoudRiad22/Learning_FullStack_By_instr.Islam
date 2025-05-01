@@ -1,3 +1,35 @@
+/* ============= Ovrview of Lec 19 ===============
+    flex-container:
+        - display: flex; [Activate the flex property].
+
+        1-flex-direction: row   column;
+
+        2-flex-wrap: nowrap"default"     wrap    wrap-reverse;
+
+        3-flex-flow: flex-direction  flex-wrap;
+
+        4-justify-content: [flex-start, felx-end, center, space-around, space-between, space-evenly].
+        
+        5-align-items: [flex-start, flex-end, center, stretch]
+    ====================================================
+    ====================================================
+    flex-items:
+        1-flex-grow: numaric_value;
+
+        2-flex-shrink: numeric_value;
+
+        3-flex-basis:    initial_width  ===if==>  flex-direction: row;
+                        intial_height  ===if==>    flex-direction: column;
+        
+        4-flex: grow shrink  basis;
+
+        5- order: numeric value;
+        6- align-self: it overrides the align-items in the flex-container.
+        7- align-content: search it;
+
+        Q. when to use min-height?!
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -8,24 +40,6 @@ body {
   perspective: 700px;
 }
 
-/* ============= Ovrview of Lec 19 ===============
-    flex-container:
-        - display: flex; [Activate the flex property].
-
-        1-flex-direction: row   column;
-        2-flex-wrap: nowrap"default"     wrap    wrap-reverse;
-        -flex-flow: flex-direction  flex-wrap;
-    ====================================================
-    ====================================================
-    flex-items:
-        1-flex-grow: numaric_value;
-        2-flex-shrink: numeric_value;
-        3-flex-basis:    initial_width  ===if==>  flex-direction: row;
-                        intial_height  ===if==>    flex-direction: column;
-        
-        -flex: grow shrink  basis;
-*/
-
 /* ************** CODING-Part ****************** */
 
 /* ====================================================================
@@ -33,223 +47,307 @@ body {
 /* #region flex-flow section */
 
 .flex-flow-title {
-    text-align: center;
-    background-color: chocolate;
-    padding: 6px;
-  }
-  
-  .flex-flow-sec .container {
-    /* width: 800px; */
-    height: 500px;
-    background-color: gray;
-  
-    display: flex;
-  
-    flex-direction: row; /*default state*/
-    /* flex-direction: row-reverse; */
-    flex-direction: column;
-    /* flex-direction: column-reverse; */
-  
-    /* wrap = لف */
-    flex-wrap: nowrap; /*default state*/
-    /* flex-wrap: wrap; */
-    /* flex-wrap: wrap-reverse; */
-  
-    /* discribe the shape flow of the container */
-    flex-flow: row wrap;
-    /* shorthand for both the direction and wrap*/
-  }
-  
-  .flex-flow-sec .div1 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rebeccapurple;
-  }
-  
-  .flex-flow-sec .div2 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-  
-    background-color: rgb(51, 153, 151);
-  }
-  
-  .flex-flow-sec .div3 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(153, 151, 51);
-  }
-  
-  .flex-flow-sec .div4 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(255, 158, 3);
-  }
-  .flex-flow-sec .div5 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(153, 51, 82);
-  }
-  .flex-flow-sec .div6 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(153, 51, 136);
-  }
-  .flex-flow-sec .div7 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(102, 51, 153);
-  }
-  .flex-flow-sec .div8 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(51, 73, 153);
-  }
-  .flex-flow-sec .div9 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(51, 153, 129);
-  }
-  .flex-flow-sec .div10 {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-    padding-left: 8px;
-    /* height: calc(100vh / 3); */
-    background-color: rgb(51, 153, 56);
-  }
-  
-  /* #endregion */
+  text-align: center;
+  background-color: chocolate;
+  padding: 6px;
+}
+
+.flex-flow-sec .container {
+  /* width: 800px; */
+  height: 500px;
+  background-color: gray;
+
+  display: flex;
+
+  flex-direction: row; /*default state*/
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+  /* flex-direction: column-reverse; */
+
+  /* wrap = لف */
+  flex-wrap: nowrap; /*default state*/
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  /* discribe the shape flow of the container */
+  flex-flow: row wrap;
+  /* shorthand for both the direction and wrap*/
+}
+
+.flex-flow-sec .div1 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rebeccapurple;
+}
+
+.flex-flow-sec .div2 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+
+  background-color: rgb(51, 153, 151);
+}
+
+.flex-flow-sec .div3 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(153, 151, 51);
+}
+
+.flex-flow-sec .div4 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(255, 158, 3);
+}
+.flex-flow-sec .div5 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(153, 51, 82);
+}
+.flex-flow-sec .div6 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(153, 51, 136);
+}
+.flex-flow-sec .div7 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(102, 51, 153);
+}
+.flex-flow-sec .div8 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(51, 73, 153);
+}
+.flex-flow-sec .div9 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(51, 153, 129);
+}
+.flex-flow-sec .div10 {
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  padding-left: 8px;
+  /* height: calc(100vh / 3); */
+  background-color: rgb(51, 153, 56);
+}
+
+/* #endregion */
 /* ==================================================================
     ================================================================== */
-  
+
 /* ====================================================================
      ================================================================== */
 /* #region flex-grow-shrink-basis section  */
 
-.flex-grow-shrink-title{
-    text-align: center;
-    background-color: chocolate;
-    padding: 6px;
+.flex-grow-shrink-title {
+  text-align: center;
+  background-color: chocolate;
+  padding: 6px;
 
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
-.flex-grow-shrink .container{
-    height: 500px;
-    background-color: darkcyan;
+.flex-grow-shrink .container {
+  height: 500px;
+  background-color: darkcyan;
 
-    display: flex; 
-    /* the flow is [row and nowrap] as default */
-
-
+  display: flex;
+  /* the flow is [row and nowrap] as default */
 }
 
-.flex-grow-shrink .div1{
-    width: 300px;
-    height: 150px;
-    /* margin-left: 10px; */
-    border: 1.5px solid black;
-    background-color: wheat;
+.flex-grow-shrink .div1 {
+  width: 300px;
+  height: 150px;
+  /* margin-left: 10px; */
+  border: 1.5px solid black;
+  background-color: wheat;
 
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
-
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
 }
-.flex-grow-shrink .div2{
-    width: 300px;
-    height: 150px;
-    /* margin-left: 10px; */
-    border: 1.5px solid black;
-    background-color: rgb(255, 166, 0);
+.flex-grow-shrink .div2 {
+  width: 300px;
+  height: 150px;
+  /* margin-left: 10px; */
+  border: 1.5px solid black;
+  background-color: rgb(255, 166, 0);
 
-    /* flex-grow: 4; */
-    /* flex-shrink: 20; */
-
+  /* flex-grow: 4; */
+  /* flex-shrink: 20; */
 }
-.flex-grow-shrink .div3{
-    width: 300px;
-    height: 150px;
-    /* margin-left: 10px; */
-    border: 1.5px solid black;
-    background-color: rgb(245, 71, 8);
+.flex-grow-shrink .div3 {
+  width: 300px;
+  height: 150px;
+  /* margin-left: 10px; */
+  border: 1.5px solid black;
+  background-color: rgb(245, 71, 8);
 
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
 }
-
 
 /* #endregion */
 /* ====================================================================
    ==================================================================== */
 
-.flex_justify_content_and_align_items > .title{
-    text-align: center;
-    background-color: chocolate;
-    padding: 6px;
-    text-transform: capitalize;
+/* ====================================================================
+   ==================================================================== */
+/* #region flex_justify_content_and_align_items section */
+
+.flex_justify_content_and_align_items > .title {
+  text-align: center;
+  background-color: chocolate;
+  padding: 6px;
+  text-transform: capitalize;
 }
 
-.flex_justify_content_and_align_items .container{
-    height: 500px;
-    background-color: darkcyan;
+.flex_justify_content_and_align_items .container {
+  height: 500px;
+  background-color: darkcyan;
 
-    display: flex; 
-    /* the flow is [row and nowrap] as default */
+  display: flex;
+  flex-flow: row;
+  /* flex-flow:row; */
+  /* the flow is [row and nowrap] as default */
 
+  /***********************************************/
+  /***********************************************/
+  /*justify-content*/
+  /* it affects the main-axis
+    it affects the X-axis for row felx-direction and Y-axis for column felx-direction 
+    its values: 
+        [felx-start, flex-end, center, space-around, space-between, space-evenly].
+*/
+
+  /* justify-content: flex-start; */
+  /* default value */
+
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /***********************************************/
+  /***********************************************/
+
+  /***********************************************/
+  /***********************************************/
+  /* align-items */
+  /* it affect the cross-axis 
+    affects Y-axis for row flex-direction and the X-axis for felx-direction
+    it values: 
+        [stretch = normal = default, center, flex-start, flex-end, , baseline].
+*/
+
+  /* align-items: normal; */
+  /* default value */
+
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+  /* align-items: baseline; */
 }
 
-.flex_justify_content_and_align_items  .div1{
-    width: 300px;
-    height: 150px;
+.flex_justify_content_and_align_items .div1 {
+  width: 130px;
+  height: 60px;
+  /* min-height: 100px; */
 
-    border: 1.5px solid black;
-    background-color: rgb(3, 156, 167);
+  border: 1.5px solid black;
+  background-color: rgb(3, 156, 167);
 
+  text-align: center;
+  /* font-size: 35px; */
+  text-decoration: underline;
+
+  order: 1;
 }
 
-.flex_justify_content_and_align_items  .div2{
-    width: 300px;
-    height: 150px;
+.flex_justify_content_and_align_items .div2 {
+  width: 130px;
+  height: 60px;
 
-    border: 1.5px solid black;
-    background-color: rgb(19, 194, 0);
+  border: 1.5px solid black;
+  background-color: rgb(1, 67, 191);
 
+  /* font-size: 65px; */
+  text-decoration: underline;
+  text-align: center;
+  color: wheat;
+  order: 1;
 }
 
-.flex_justify_content_and_align_items  .div3{
-    width: 300px;
-    height: 150px;
+.flex_justify_content_and_align_items .div3 {
+  width: 130px;
+  height: 60px;
+  border: 1.5px solid black;
 
-    border: 1.5px solid black;
-    background-color: rgb(1, 67, 191);
+  background-color: rgb(19, 194, 0);
+  text-align: center;
+  text-decoration: underline;
+  /* font-size: 15px; */
+  order: 1;
+
+  align-self: flex-start;
 }
+
+.flex_justify_content_and_align_items .div4 {
+  width: 130px;
+  height: 60px;
+
+  border: 1.5px solid black;
+  background-color: rgb(115, 1, 191);
+  text-align: center;
+  text-decoration: underline;
+  /* font-size: 45px; */
+  order: 1;
+}
+
+.flex_justify_content_and_align_items .div5 {
+  width: 130px;
+  height: 60px;
+
+  border: 1.5px solid black;
+  background-color: rgb(191, 58, 1);
+  text-align: center;
+
+  text-decoration: underline;
+  /* font-size: 30px; */
+  order: 1;
+}
+
+/* #endregion */
+/* ====================================================================
+   ==================================================================== */
 
 /* ********************************************* */
 
@@ -295,8 +393,8 @@ body {
                 flex: flex-grow     flex-shrink     flex-basis;
         
 */
- 
-  /* How "Flex-Grow actually works":
+
+/* How "Flex-Grow actually works":
       1- it adds up all the numric values given for all the flex-items in the flex-container.
           1+4+1 = 6
       2- it finds the un-used space of the parent:  container width: auto [1280-(300*3) = 380].
@@ -307,8 +405,8 @@ body {
           div2: 63.33 * 4 = 253.33px [the new width of div2 = origin-width +  253.33px = 553.33].
           div3: 63.33 * 1 = 63.33px [the new width of div3 = origin-width +  63.33px = 363.33].
    */
-  
-  /* How "Flex-Shrink" actually works:
+
+/* How "Flex-Shrink" actually works:
       1- it calculates the deficit of the screen:
           deficit = (total_flex-items width) - (current_flex-container width);
   
@@ -346,8 +444,8 @@ body {
       ====================================================
   
   */
-  
-  /* How "Flex-basis" actually works:
+
+/* How "Flex-basis" actually works:
       - flex-basis: can represent "width" or "height" based on the flex-direction: "row" or "column".
           flex-basis: initial_width      ========> flex-direction: row;
           flex-basis:  initial_height      ========> flex-direction: column;
@@ -357,7 +455,7 @@ body {
       - "Flex" shorthand:
           flex: flex-grow  flex-shrink  flex-basis;
    */
-  
+
 /* flex-container properities: "Justify-content" && "align-item":
 
     Note:
@@ -367,7 +465,46 @@ body {
     justify-content ==== main axis
 
     align-item ===== cross axis
+
+Quizes: @lec 19 [1:27:15] to [1:46:00]
+
+    Q1. make the items in the middle center to the end?
+    A2.  flex-flow: row;
+        -justify-content: flex-end;
+        -align-items: center;
+    
+    Q2. make the iems above each other, with even spaces in between?
+    A2. flex-flow: column;
+        justify-content: space-evenly;
+        align-items: felx-start;
+
+    Q3. make the items above each other with no space and in the bottom middle?
+    A3  flex-flow: column;
+        justify-content: flex-end;
+        align-items: center;
+
+    Q4. make the items at the biottom with spaces in between them?
+    A4. flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-end;
+    
+    Q5. make the items on the top right corner above each others?
+    A5. flex-flow: column;
+        justify-content:flex-start;
+        align-items: flex-end;
+
+    Q6. make items at the bottom, with space in between?
+        flex-flow: row;
+        justify-content: flex-end;
+        align-items: space-between;
+
+    Q7. make items in the center and spaces are even?
+        flex-flow: column;
+        justify-content: sapce-evenly;
+        align-items: center;
+
  */
 
-
-
+/* flex-item "order":
+    makes the flex-items appear in the order given regardless of the html initial order.
+ */
