@@ -3,11 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(79, 79, 79);
+}
+h3 {
+  text-align: center;
+  padding: 15px 0;
+  text-transform: capitalize;
+  background-color: black;
+  color: aliceblue;
+}
 .section1 {
   display: flex;
   text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
+/* .section1 .div1btn{
+  align-self:last baseline;
 
+} */
 .div1 {
   background-color: antiquewhite;
   /* width: 100px; */
@@ -38,21 +53,34 @@
 .section1 p {
   padding-top: 30px;
 }
-
+.submit {
+  width: 200px;
+  margin: 0 auto;
+}
+.submit #submitbtn {
+  width: 200px;
+  height: 50px;
+}
 .buttonSection {
   padding: 15px;
-  background-color: chocolate;
+  background-color: rgb(253, 153, 82);
   /* margin: 0   auto; */
+  display: flex;
 }
 
 .buttonSection button {
   /* margin-left: 8px; */
   margin: 0 30px;
 }
+
 .resultsection {
-  height: 50px;
-  width: 200px;
+  /* height: 50px; */
+  width: 250px;
   margin: 0 auto;
   text-align: center;
   background-color: rgb(191, 137, 242);
+}
+.expodiv {
+  margin: 0 auto;
+  /* justify-self: ; */
 }
