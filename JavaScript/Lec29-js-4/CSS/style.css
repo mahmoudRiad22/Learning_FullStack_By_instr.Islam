@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section1 {
+  background-color: rgb(142, 195, 195);
+  /* width: 40px; */
+  /* height: 40px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* column-gap: 15px; */
+}
+.section1 .item_container {
+  width: 250px;
+  height: 200px;
+  border: 0.5px black solid;
+  margin: auto;
+  text-align: center;
+}
+.section1 #item_btn {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 20px;
+}
+.section1 #selected {
+  background-color: rgb(53, 183, 30);
+  color: antiquewhite;
+  padding: 10px;
+  border-radius: 20px;
+  display: none;
+}
+.section1 #item_btn:hover {
+  background-color: darkgrey;
+  color: antiquewhite;
+}
+.section1 #item_btn:focus {
+  background-color: brown;
+  /* tex */
+}
+
+/* //////////////////////////////////////////////////// */
+.checkout {
+  /* text-align: center; */
+  background-color: coral;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+
+}
+
+.checkout .checkout_items, .checkout_prices{
+    width: calc(100vw / 2);
+}
+.checkout #show_items_list,
+#show_price,#hide_price, #hide_items_list {
+  padding: 8px;
+  border-radius: 20px;
+  background-color: black;
+  color: antiquewhite;
+}
+.checkout #show_items_list:hover,
+#show_price:hover, #hide_items_list:hover{
+  background-color: gray;
+  color: black;
+}
+.checkout .checkout_prices .total_price {
+  display: none;
+  text-decoration: solid;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

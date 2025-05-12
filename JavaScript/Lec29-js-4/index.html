@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec29-js-4</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <!-- 
+        porject details:
+            -- site has multiple produts. done
+            -- when product is clicked:
+                - the name is added to a new div
+            -- a button for show price(when clicked):
+                - it calc the total price of selected items.
+                - show the total price in a new div.
+     -->
+    <section class="section1 products">
+        <div class="item_container">
+            <figure>
+                <img src="#" alt="item1_img">
+                <figcaption>item 1</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item2">
+                <img src="#" alt="item2_img">
+                <figcaption>item 2</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item3">
+                <img src="#" alt="item3_img">
+                <figcaption>item 3</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item4">
+                <img src="#" alt="item4_img">
+                <figcaption>item 4</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item5">
+                <img src="#" alt="item5_img">
+                <figcaption>item 5</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item6">
+                <img src="#" alt="item6_img">
+                <figcaption>item 6</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item7">
+                <img src="#" alt="item7_img">
+                <figcaption>item 7</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item8">
+                <img src="#" alt="item8_img">
+                <figcaption>item 8</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+
+        <div class="item_container">
+            <figure class="item9">
+                <img src="#" alt="item9_img">
+                <figcaption>item 9</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+
+        <div class="item_container">
+            <figure class="item10">
+                <img src="#" alt="item10_img">
+                <figcaption>item 10</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+
+        <div class="item_container">
+            <figure class="item11">
+                <img src="#" alt="item11_img">
+                <figcaption>item 11</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+
+        <div class="item_container">
+            <figure class="item12">
+                <img src="#" alt="item12_img">
+                <figcaption>item 12</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item13">
+                <img src="#" alt="item13_img">
+                <figcaption>item 13</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item14">
+                <img src="#" alt="item14_img">
+                <figcaption>item 14</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item15">
+                <img src="#" alt="item15_img">
+                <figcaption>item 15</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item16">
+                <img src="#" alt="item16_img">
+                <figcaption>item 16</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item17">
+                <img src="#" alt="item17_img">
+                <figcaption>item 17</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item18">
+                <img src="#" alt="item18_img">
+                <figcaption>item 18</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item19">
+                <img src="#" alt="item19_img">
+                <figcaption>item 19</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+        <div class="item_container">
+            <figure class="item20">
+                <img src="#" alt="item20_img">
+                <figcaption>item 20</figcaption>
+            </figure>
+            <p class="item_price">Price: <span class="value"></span></p>
+            <button id="item_btn">Add Item</button>
+            <button id="selected">Selected</button>
+        </div>
+
+
+    </section>
+
+    <section class="checkout">
+        <h1 class="title">checkout</h1>
+        <div class="checkout_items">
+
+            <span class="total_items">Total Items: </span><br>
+
+            <button id="show_items_list">Show Items</button>
+            <button id="hide_items_list" style="display: none;">Hide Items</button>
+            <ul class="items_list" style="display: none;"></ul><br>
+
+        </div>
+        <div class="checkout_prices">
+
+            <button class="" id="show_price">Show Price</button>
+            <button class="" id="hide_price" style="display: none;">Hide Price</button>
+            <span class="total_price">Total Price: </span>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
