@@ -141,18 +141,18 @@ document.querySelector("p").addEventListener("click", () => {
 const fbBtn = document.getElementById("fbBtn");
 const ytBtn = document.getElementById("ytBtn");
 
-const closefb  =document.getElementById("closefb");
-const closeyt  =document.getElementById("closeyt");
+const closefb = document.getElementById("closefb");
+const closeyt = document.getElementById("closeyt");
 
 let fbWindow, ytWindow;
 ////////////////////
 
-function open_fb(){
+function open_fb() {
     fbWindow = window.open("#", "Facebook", "width=350, height=500");
     console.log(fbWindow);
 }
 
-function open_yt(){
+function open_yt() {
     ytWindow = window.open("#", "Youtube", "width=200   height=200");
     console.log(ytWindow);
 }
@@ -161,15 +161,14 @@ fbBtn.addEventListener("click", open_fb);
 ytBtn.addEventListener("click", open_yt);
 // ytBtn.onclick = open_yt;
 
-
-function close_fb(){
+function close_fb() {
     console.log(fbWindow);
     fbWindow.close();
     console.log("fbWindow is close");
 }
 
-function close_yt(){
-    console.log("HERE",ytWindow);
+function close_yt() {
+    console.log("HERE", ytWindow);
     ytWindow.close();
 }
 
@@ -186,12 +185,10 @@ closeyt.onclick = close_yt;
         --  screen.availableHeight; return the "vh"
 */
 
-
 /*  history:
         --  history.forward(); load the next page in history
         --  history.back(); load the previous page in history
 */
-
 
 /*  location:
         --  loaction.assign("url"); change page ur to given one;
@@ -218,7 +215,59 @@ closeyt.onclick = close_yt;
             on right div leave a msg on to show the window is open correctly
             when open a windowo create an icon on the right side.
             when close the window delete that icon
+*/
+const sec2OpenBtn = document.getElementById("sec2OpenBtn");
+const sec2CloseBtn = document.getElementById("sec2CloseBtn");
+const right_div_textarea = document.getElementById("right_div_textarea");
+// console.log(right_div_textarea);
+const url = "http://127.0.0.1:5500/JavaScript/Lec35-js-10/index.html";
+let opened;
 
+function open_new_window(url) {
+    opened = window.open(url, "New_Window", "width = 300px, height = 400px");
+    if (opened) {
+        console.log("Window Opened: SUCCESS!");
+        document.querySelector(".fa-square-check").style.display = "inline";
+        document.querySelector(".fa-xmark").style.display = "none";
+        right_div_textarea.textContent = "Window Opened: SUCCESS!";
+        right_div_textarea.style.color = "lightgreen";
+    } else {
+        console.log("Window Opened: ERROR!");
+        document.querySelector(".fa-square-check").style.display = "none";
+        document.querySelector(".fa-xmark").style.display = "inline";
+        right_div_textarea.textContent = "ERROR!!";
+        right_div_textarea.style.color = "red";
+    }
+}
+
+function close_opened_window() {
+    if (opened) {
+        opened.close();
+        console.log(document.querySelector(".fa-square-check"));
+        document.querySelector(".fa-square-check").style.display = "none";
+        document.querySelector(".fa-xmark").style.display = "inline";
+        console.log(document.querySelector(".fa-square-check"));
+
+        right_div_textarea.textContent = "Window Closed: SUCCESS!";
+        right_div_textarea.style.color = "red";
+        opened = null;
+    } else {
+        console.log("Window Opened: ERROR!");
+        document.querySelector(".fa-square-check").style.display = "none";
+        document.querySelector(".fa-xmark").style.display = "inline";
+
+        right_div_textarea.textContent = "ERROR!!";
+        right_div_textarea.style.color = "red";
+    }
+}
+
+const open_window = function () {
+    open_new_window("");
+};
+sec2OpenBtn.addEventListener("click", open_window);
+
+sec2CloseBtn.addEventListener("click", close_opened_window);
+/*
         --  create 4 divs on same row with space in between
             for each div when clicked on, show the values of:
                 total width of the div

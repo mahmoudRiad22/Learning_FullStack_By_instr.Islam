@@ -6,31 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lec35-js-10</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 </head>
 
 <body>
 
-    <div class="div1">
-        <button id="btn1">Confirm</button>
-    </div>
-    <p>
-        <span>lorLorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate praesentium </span>
-        <span>lorLorem ipsum dolor sit Cupiditate praesentium </span>
-        <span>lorLorem ipsum dolor sit amet consectetur e praesentium </span>
-        <span>lorLorem tate praesentium </span>
-    </p>
+    <section class="section1">
+        <div class="div1">
+            <button id="btn1">Confirm</button>
+        </div>
+        <p>
+            <span>lorLorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate praesentium </span>
+            <span>lorLorem ipsum dolor sit Cupiditate praesentium </span>
+            <span>lorLorem ipsum dolor sit amet consectetur e praesentium </span>
+            <span>lorLorem tate praesentium </span>
+        </p>
 
-    <div class="div2">
-        <button id="fbBtn">Facebook</button><br>
-        <button id="ytBtn">Youtube</button><br>
-    </div>
+        <div class="div2">
+            <button id="fbBtn">Facebook</button><br>
+            <button id="ytBtn">Youtube</button><br>
+        </div>
 
-    <div class="div3">
-        <button id="closefb">Close Facebook</button><br>
-        <button id="closeyt">Close Youtube</button><br>
+        <div class="div3">
+            <button id="closefb">Close Facebook</button><br>
+            <button id="closeyt">Close Youtube</button><br>
 
-    </div>
+        </div>
+    </section>
+    <br><br>
+
+    <section class="sectio2">
+        <!-- create 2 divs next to each other
+            on left div contain buttons to open/ close windows
+            on right div leave a msg on to show the window is open correctly
+            when open a windowo create an icon on the right side.
+            when close the window delete that icon -->
+        <div class="container">
+            <div class="left_div">
+                <div class="sec2Div1">
+                    <h3 class="title"> OPEN the window</h3>
+                    <button id="sec2OpenBtn">Open New Window</button>
+                </div>
+                <div class="sec2Div2">
+                    <h3 class="title"> CLOSE the window</h3>
+                    <button id="sec2CloseBtn">Close Opened Window</button>
+                </div>
+            </div>
+
+            <div class="right_div">
+                <h3>My-Console</h3>
+                <div id="right_div_container">
+                    <i class="fa-solid fa-square-check" style="color: #2fa737; display: none;"></i>
+                    <i class="fa-sharp fa-solid fa-xmark" style="color: #f01440; display: none;"></i>
+                    <span id="right_div_textarea"></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
     <script src="./js/script.js"></script>
 </body>
 
 </html>
+
+
