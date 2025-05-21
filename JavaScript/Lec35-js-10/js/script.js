@@ -219,12 +219,16 @@ closeyt.onclick = close_yt;
 const sec2OpenBtn = document.getElementById("sec2OpenBtn");
 const sec2CloseBtn = document.getElementById("sec2CloseBtn");
 const right_div_textarea = document.getElementById("right_div_textarea");
-// console.log(right_div_textarea);
-const url = "http://127.0.0.1:5500/JavaScript/Lec35-js-10/index.html";
+
+const local_url = "http://127.0.0.1:5500/JavaScript/Lec35-js-10/index.html";
+const fb_url = "https://www.facebook.com/?locale=ar_AR";
+const yt_url = "https://www.youtube.com/";
+const gl_url = "https://www.google.com/";
+
 let opened;
 
 function open_new_window(url) {
-    opened = window.open(url, "New_Window", "width = 300px, height = 400px");
+    opened = window.open(url, "facebook", "width = 300px, height = 400px");
     if (opened) {
         console.log("Window Opened: SUCCESS!");
         document.querySelector(".fa-square-check").style.display = "inline";
@@ -252,7 +256,7 @@ function close_opened_window() {
         right_div_textarea.style.color = "red";
         opened = null;
     } else {
-        console.log("Window Opened: ERROR!");
+        console.log("ERROR: No Opened windows");
         document.querySelector(".fa-square-check").style.display = "none";
         document.querySelector(".fa-xmark").style.display = "inline";
 
@@ -262,11 +266,15 @@ function close_opened_window() {
 }
 
 const open_window = function () {
-    open_new_window("");
+    open_new_window(local_url);
+};
+
+const close_window = function () {
+    close_opened_window();
 };
 sec2OpenBtn.addEventListener("click", open_window);
+sec2CloseBtn.addEventListener("click", close_window);
 
-sec2CloseBtn.addEventListener("click", close_opened_window);
 /*
         --  create 4 divs on same row with space in between
             for each div when clicked on, show the values of:
@@ -290,5 +298,12 @@ sec2CloseBtn.addEventListener("click", close_opened_window);
             create an alert that appear every 3s of the click event
             create a button that closes the timer for each one of them speratly
 */
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = { open_new_window, close_opened_window };
+}
+//////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
